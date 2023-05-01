@@ -1,0 +1,22 @@
+40.38
+40.43
+40.39
+40.34
+40.34
+40.35
+40.33
+40.30
+40.28
+40.29
+
+INCpac relativas al picnómetro con acetona
+Incertidumbre inicial de la media =  0.04473253849269054
+sa de la media =  0.01414567071580574
+sb =  0.01
+sc =  0.017323394586512313
+media1 =  40.343
+media2 =  40.343
+datos excluidos:  []
+datos buenos:  [40.38, 40.43, 40.39, 40.34, 40.34, 40.35, 40.33, 40.3, 40.28, 40.29]
+Densidad de la acetona:  0.7972277525262013
+Incertidumbre de la densidad de la acetona =  0.0008285956078884523

@@ -1,0 +1,593 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  30 APR 2023 12:44
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Pequeñas resistencias/pequeñasresistencias.tex"
+(c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Pequeñas resistencias/pequeñasresistencias.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(c:/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen143
+\l@unhyphenated=\language87
+ (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+ (c:/texlive/2022/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count195
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (c:/texlive/2022/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language88
+LaTeX Info: Redefining \_ on input line 43.
+) (c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen144
+\captionmargin=\dimen145
+\caption@leftmargin=\dimen146
+\caption@rightmargin=\dimen147
+\caption@width=\dimen148
+\caption@indent=\dimen149
+\caption@parindent=\dimen150
+\caption@hangindent=\dimen151
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
+) (c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count198
+\c@subtable=\count199
+) (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen152
+)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks22
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks23
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2022/texmf-dist/tex/latex/gensymb/gensymb.sty
+Package: gensymb 2022/10/17 v1.0.2 (KJH)
+) (c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box53
+) (build/pequeñasresistencias.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `pequeñasresistencias.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen161
+\scratchbox=\box54
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen162
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks27
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 21.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 21.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 21.
+Package gensymb Info: Using \Omega for \ohm on input line 21.
+
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (build/pequeñasresistencias.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write3
+\openout3 = `pequeñasresistencias.toc'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1]
+Overfull \hbox (16.57634pt too wide) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/12 El ob-je-ti-vo de es-ta pr^^Sacti-ca es de-ter-mi-nar la re-sis-ti-vi-dad de cier-tos ma-te-ria-les,
+ []
+
+<Images/Ley_de_ohm_-_Organigrama.jpg, id=12, 250.9375pt x 250.9375pt>
+File: Images/Ley_de_ohm_-_Organigrama.jpg Graphic file (type jpg)
+<use Images/Ley_de_ohm_-_Organigrama.jpg>
+Package pdftex.def Info: Images/Ley_de_ohm_-_Organigrama.jpg  used on input line 35.
+(pdftex.def)             Requested size: 97.5pt x 97.50146pt.
+<Images/esquema ohm.png, id=13, 250.9375pt x 351.3125pt>
+File: Images/esquema ohm.png Graphic file (type png)
+<use Images/esquema ohm.png>
+Package pdftex.def Info: Images/esquema ohm.png  used on input line 39.
+(pdftex.def)             Requested size: 81.89964pt x 114.65765pt.
+
+Overfull \hbox (3.42223pt too wide) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/12 Valores al-tos de re-sis-ti-vi-dad in-di-can que el ma-te-rial es un ais-lan-te, mien-tras
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2 <./Images/Ley_de_ohm_-_Organigrama.jpg> <./Images/esquema ohm.png>]
+<Images/montaje experimental.png, id=23, 449.17813pt x 301.62688pt>
+File: Images/montaje experimental.png Graphic file (type png)
+<use Images/montaje experimental.png>
+Package pdftex.def Info: Images/montaje experimental.png  used on input line 79.
+(pdftex.def)             Requested size: 195.0pt x 130.94429pt.
+<Images/ohmmeter-example3.png, id=24, 436.63126pt x 238.8925pt>
+File: Images/ohmmeter-example3.png Graphic file (type png)
+<use Images/ohmmeter-example3.png>
+Package pdftex.def Info: Images/ohmmeter-example3.png  used on input line 84.
+(pdftex.def)             Requested size: 245.69893pt x 134.42772pt.
+
+Overfull \hbox (81.89964pt too wide) in paragraph at lines 84--85
+ [][] 
+ []
+
+
+Overfull \hbox (14.58878pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/12 con-duc-to-res que cuen-tan con una re-sis-ten-cia muy ba-ja, por lo que la in-ter-fe-ren-cia
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3 <./Images/montaje experimental.png> <./Images/ohmmeter-example3.png>]
+<Images/voltaje residual-4 (002).jpg, id=31, 787.44188pt x 361.35pt>
+File: Images/voltaje residual-4 (002).jpg Graphic file (type jpg)
+<use Images/voltaje residual-4 (002).jpg>
+Package pdftex.def Info: Images/voltaje residual-4 (002).jpg  used on input line 101.
+(pdftex.def)             Requested size: 253.49762pt x 116.32358pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./Images/voltaje residual-4 (002).jpg>]
+Overfull \hbox (2.44724pt too wide) in paragraph at lines 119--120
+[]\OT1/cmr/m/n/12 Como la in-cer-ti-dum-bre de to-dos los vol-ta-jes me-di-dos es la mis-ma, po-de-mos
+ []
+
+
+Overfull \hbox (11.91605pt too wide) in paragraph at lines 126--127
+\OT1/cmr/m/n/12 con-tac-tos y la sec-ci^^Son trans-ver-sal. Adem^^Sas de eso, cal-cu-la-re-mos la in-cer-ti-dum-bre
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Overfull \hbox (18.11737pt too wide) in paragraph at lines 155--156
+\OT1/cmr/m/n/12 pro-vo-ca-ba cier-ta os-ci-la-ci^^Son en el vol-ta-je. No obs-tan-te, pa-ra rea-li-zar el tra-ta-mien-to
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+<Images/esquema caja conexiones.jpeg, id=44, 662.475pt x 908.64468pt>
+File: Images/esquema caja conexiones.jpeg Graphic file (type jpg)
+<use Images/esquema caja conexiones.jpeg>
+Package pdftex.def Info: Images/esquema caja conexiones.jpeg  used on input line 187.
+(pdftex.def)             Requested size: 253.49762pt x 347.68718pt.
+
+Overfull \hbox (11.74583pt too wide) in paragraph at lines 192--193
+[]\OT1/cmr/m/n/12 En el es-que-ma po-de-mos ob-ser-var dos po-si-bles con-fi-gu-ra-cio-nes del volt^^S^^Pme-tro,
+ []
+
+
+Overfull \hbox (9.2755pt too wide) in paragraph at lines 192--193
+\OT1/cmr/m/n/12 di-fe-ren-tes ca-bles con-duc-to-res. Por otra par-te, en la con-fi-gu-ra-ci^^Son $\OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 co-nec-ta-mos
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./Images/esquema caja conexiones.jpeg>]
+Overfull \hbox (12.89157pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/12 an-te-rior, me-di-re-mos los va-lo-res de vol-ta-je pro-vo-ca-dos por di-fe-ren-tes in-ten-si-da-des
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+Overfull \hbox (3.52092pt too wide) in paragraph at lines 220--221
+[]\OT1/cmr/m/n/12 La in-cer-ti-dum-bre de la in-ten-si-dad vie-ne da-da por la fuen-te de ali-men-ta-ci^^Son: 
+ []
+
+
+Overfull \hbox (16.03479pt too wide) in paragraph at lines 226--227
+\OT1/cmr/m/n/12 re-sul-ta-dos en-tre $10[]$ pa-ra ob-te-ner los va-lo-res en uni-da-des del SI. La in-cer-ti-dum-bre
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Overfull \hbox (6.42783pt too wide) in paragraph at lines 273--274
+\OT1/cmr/m/n/12 t^^Sermino in-de-pen-dien-te por el m^^Seto-do de los m^^S^^Pni-mos cua-dra-dos pa-ra apro-xi-mar
+ []
+
+<Images/plotCobre.png, id=54, 393.47pt x 279.0425pt>
+File: Images/plotCobre.png Graphic file (type png)
+<use Images/plotCobre.png>
+Package pdftex.def Info: Images/plotCobre.png  used on input line 297.
+(pdftex.def)             Requested size: 331.50238pt x 235.09238pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <./Images/plotCobre.png>]
+Overfull \hbox (14.74858pt too wide) in paragraph at lines 344--345
+[]\OT1/cmr/m/n/12 El pro-ce-di-mien-to pa-ra de-ter-mi-nar la re-sis-ti-vi-dad del alu-mi-nio es exac-ta-men-te
+ []
+
+
+Overfull \hbox (12.2388pt too wide) in paragraph at lines 344--345
+\OT1/cmr/m/n/12 id^^Senti-co, to-ma-re-mos los 20 va-lo-res de vol-ta-je e in-ten-si-dad y des-pu^^Ses rea-li-za-re-mos
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+<Images/plotAluminio.png, id=62, 393.47pt x 279.0425pt>
+File: Images/plotAluminio.png Graphic file (type png)
+<use Images/plotAluminio.png>
+Package pdftex.def Info: Images/plotAluminio.png  used on input line 404.
+(pdftex.def)             Requested size: 331.50238pt x 235.09238pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./Images/plotAluminio.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+<Images/plotCable1.png, id=77, 556.0775pt x 323.2075pt>
+File: Images/plotCable1.png Graphic file (type png)
+<use Images/plotCable1.png>
+Package pdftex.def Info: Images/plotCable1.png  used on input line 552.
+(pdftex.def)             Requested size: 350.99762pt x 204.01141pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./Images/plotCable1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+<Images/plotCable2.png, id=85, 650.43pt x 325.215pt>
+File: Images/plotCable2.png Graphic file (type png)
+<use Images/plotCable2.png>
+Package pdftex.def Info: Images/plotCable2.png  used on input line 676.
+(pdftex.def)             Requested size: 370.49881pt x 185.25537pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./Images/plotCable2.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+<Images/plotCable3.png, id=97, 650.43pt x 325.215pt>
+File: Images/plotCable3.png Graphic file (type png)
+<use Images/plotCable3.png>
+Package pdftex.def Info: Images/plotCable3.png  used on input line 779.
+(pdftex.def)             Requested size: 370.49881pt x 185.25537pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./Images/plotCable3.png>]
+Overfull \hbox (16.59636pt too wide) in paragraph at lines 800--800
+[]\OT1/cmr/bx/n/17.28 Anexo: Da-tos em-plea-dos pa-ra las re-gre-sio-nes
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22] (build/pequeñasresistencias.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
+Here is how much of TeX's memory you used:
+ 5813 strings out of 476024
+ 96547 string characters out of 5794016
+ 1869382 words of memory out of 5000000
+ 26204 multiletter control sequences out of 15000+600000
+ 521350 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,63p,1553b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on build/pequeñasresistencias.pdf (23 pages, 860600 bytes).
+PDF statistics:
+ 148 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,42 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[none]{hyphenat}
+\usepackage{caption,subcaption}
+\usepackage{amssymb, amsmath}
+
+% Mínimos cuadrados con TI
+\begin{equation}
+    a=\frac{(\sum_{i}y_{i})(\sum_{i}x_{i}^2)-(\sum_{i}x_{i})(\sum_{i}x_{i}y_{i})}{n(\sum_ix_{i}^2)-(\sum_{i}x_{i})^2}=142.45277771188293
+\end{equation}
+\begin{equation}
+    b=\frac{n(\sum_{i}x_{i}y_{i})-(\sum_{i}x_{i})(\sum_{i}y_{i})}{n(\sum_{i}x_{i}^2)-(\sum_{i}x_{i})^2}=-19.999999999999496
+\end{equation}
+\begin{equation}
+    s=\sqrt{\frac{\sum_{i}(y_{i}-a-bx_{i})^2}{n-2}}=7,7 \cdot 10^{-13}
+\end{equation}
+\begin{equation}
+    s(a)=s\sqrt{\frac{\sum_{i}x_{i}^2}{n(\sum_{i}x_{i}^2)-(\sum_{i}x_{i})^2}}=1,7 \cdot 10^{-12}
+\end{equation}
+\begin{equation}
+    s(b)=s\sqrt{\frac{n}{n(\sum_{i}x_{i}^2)-(\sum_{i}x_{i})^2}}=5,4 \cdot 10^{-13}
+\end{equation}
+
+\begin{equation}
+    r=\frac{n(\sum_{i}x_{i}y_{i})-(\sum_{i}x_{i})(\sum_{i}y_{i})}{\sqrt{[n(\sum_{i}x_{i}^2)-(\sum_{i}x_{i})^2][n(\sum_{i}y_{i}^2)-(\sum_{i}y_{i}^2)-(\sum_{i}y_{i})^2]}}=-0.9999999999999656
+\end{equation}
+
+% Mínimos cuadrados sin TI
+\begin{equation}
+    b=\frac{\sum_{i}x_{i}y_{i}}{\sum_{i}x_{i}^2}=
+\end{equation}
+\begin{equation}
+    s=\sqrt{\frac{\sum_{i}(y_{i}-bx_{i})^2}{n-1}}=
+\end{equation}
+\begin{equation}
+    s(b)=\frac{s}{\sqrt{\sum_{i}x_{i}^2}}=
+\end{equation}
+\begin{equation}
+    r=\frac{\sum_{i}x_{i}y_{i}}{\sqrt{(\sum_{i}x_{i}^2)(\sum_{i}y_{i}^2)}}=
+\end{equation}

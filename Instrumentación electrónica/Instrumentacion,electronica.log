@@ -1,0 +1,136 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.28)  1 MAR 2023 13:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Instrumentacion,electronica.tex
+(Instrumentacion,electronica.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/base\article
+.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/base\size12.
+clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/base\inputen
+c.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/graphics\gra
+phicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/graphics\key
+val.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/graphics\gra
+phics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/graphics\tri
+g.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/graphics-cfg
+\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/graphics-def
+\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen139
+\stockheight=\dimen140
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/generic/babel\babe
+l.sty
+Package: babel 2022/10/04 3.81 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen143
+\l@unhyphenated=\language79
+
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/generic/babel\txtb
+abel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/arabi\bblopt
+s.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/babel-spanis
+h\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count195
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/generic/babel/loca
+le/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/hyphenat\hyp
+henat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+)
+(C:\Users\gbast\OneDrive\Escritorio\Física\Latex\Miktex\tex/latex/base\fontenc
+.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+
+! LaTeX Error: File `subfigure.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.8 ^^M
+       
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 2309 strings out of 475385
+ 37056 string characters out of 2771748
+ 393602 words of memory out of 3000000
+ 23726 multiletter control sequences out of 15000+600000
+ 470321 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,0n,62p,233b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

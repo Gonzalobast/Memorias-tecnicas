@@ -1,0 +1,15 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción teórica}{2}{}%
+\contentsline {section}{\numberline {2}Materiales y metodología}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Determinación de la constante elástica de un muelle}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Determinación de densidades de diferentes materiales}{7}{}%
+\contentsline {subsection}{\numberline {2.3}Determinación del valor de la gravedad}{8}{}%
+\contentsline {section}{\numberline {3}Análisis de datos}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Determinación de la constante elástica del muelle}{10}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Método estático}{10}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Método dinámico}{11}{}%
+\contentsline {subsection}{\numberline {3.2}Determinación de densidades}{13}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Sólidos}{13}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Líquidos}{14}{}%
+\contentsline {subsection}{\numberline {3.3}Determinaación de la gravedad}{14}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{15}{}%

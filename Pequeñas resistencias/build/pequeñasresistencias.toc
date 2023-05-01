@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{}%
+\contentsline {section}{\numberline {2}Materiales y metodología}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Determinación de la resistividad de metales}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Determinación de la resistencia entre contactos de la caja de conexiones}{7}{}%
+\contentsline {section}{\numberline {3}Análisis de datos}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Resistividad del cobre}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Resistividad del aluminio}{11}{}%
+\contentsline {subsection}{\numberline {3.3}Determinación de la resistencia entre contactos de la caja de conexiones}{13}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Cable de 100 mm}{13}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Cable de 600 mm}{16}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Cable de 2000 mm}{19}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{22}{}%
+\contentsline {section}{\numberline {5}Anexo: Datos empleados para las regresiones lineales}{22}{}%

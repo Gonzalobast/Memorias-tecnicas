@@ -1,0 +1,22 @@
+54.42
+54.43
+54.49
+54.44
+54.49
+54.51
+54.40
+54.40
+54.46
+54.46
+
+NCppe relativas al picnómetro con los perdigones
+Incertidumbre inicial de la media =  0.036606010435446736
+sa de la media =  0.011575836902790378
+sb =  0.01
+sc =  0.01529705854077847
+media1 =  54.45
+media2 =  54.45
+datos excluidos:  []
+datos buenos:  [54.42, 54.43, 54.49, 54.44, 54.49, 54.51, 54.4, 54.4, 54.46, 54.46]
+Densidad del plomo =  10.665926748057757
+Incertidumbre de la densidad del plomo =  0.0043012648691093435

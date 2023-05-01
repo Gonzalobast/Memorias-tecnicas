@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Corriente continua}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Materiales y metodología}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Análisis de datos}{7}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Medida de resistencias}{7}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Medida de resistencias en serie}{10}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Medida de resistencias en paralelo}{12}{}%
+\contentsline {subsection}{\numberline {1.4}Conclusión}{15}{}%
+\contentsline {subsection}{\numberline {1.5}Anexo: Datos utilizados para la regresión}{17}{}%
+\contentsline {section}{\numberline {2}Corriente alterna}{19}{}%
+\contentsline {subsection}{\numberline {2.1}Objetivos}{19}{}%
+\contentsline {subsection}{\numberline {2.2}Materiales y metodología}{19}{}%
+\contentsline {subsection}{\numberline {2.3}Análisis de datos}{21}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Frecuencia de corte}{21}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Desfase entre señales}{27}{}%
+\contentsline {subsection}{\numberline {2.4}Conclusión}{29}{}%
