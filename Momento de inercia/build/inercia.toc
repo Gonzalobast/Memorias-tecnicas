@@ -2,5 +2,6 @@
 \contentsline {section}{\numberline {1}Objetivos e introducción teórica}{2}{}%
 \contentsline {section}{\numberline {2}Materiales y metodología}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Determinación del momento de inercia de diferentes cuerpos}{5}{}%
-\contentsline {section}{\numberline {3}Análisis de datos}{6}{}%
-\contentsline {section}{\numberline {4}Conclusiones}{6}{}%
+\contentsline {section}{\numberline {3}Análisis de datos}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Determinación del momento de inercia de diferentes cuerpos}{7}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{7}{}%

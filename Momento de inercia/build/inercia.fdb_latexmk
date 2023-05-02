@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1682964796 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" "build/inercia.pdf" "inercia" 1682964798 0
-  "build/inercia.aux" 1682964798 931 fc22e80d2bf04b7ffc17f543d946e703 "pdflatex"
-  "build/inercia.toc" 1682964798 418 5824d2f625cd60f11c1fdb748b06519e "pdflatex"
-  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" 1682964793 8177 ca8ed30c733523c06933ee8f878f2e3f ""
+["pdflatex"] 1683020680 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" "build/inercia.pdf" "inercia" 1683020682 0
+  "Images/Material MI-1.jpg" 1683016140 228517 22e79d22d4dc5e77b4be94c2090c95d7 ""
+  "build/inercia.aux" 1683020681 1282 becd676eb07e83f38d1f39cae6468a32 "pdflatex"
+  "build/inercia.toc" 1683020681 529 f769ce6bf9536abfae40402978bbe80c "pdflatex"
+  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" 1683020678 10958 bc601e5e419de82a05295c49947c939f ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1679153495 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1679143990 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1679143990 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -31,6 +32,7 @@
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1679143990 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1679143990 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1679143990 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1679143990 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1679143990 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1679159877 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2022/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1679145325 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
@@ -70,7 +72,7 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1679170740 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1679170869 7883444 31504c5b761f71e4bd43423edb7760cb ""
   "c:/texlive/2022/texmf.cnf" 1679170706 713 e69b156964470283e0530f5060668171 ""
-  "inercia.tex" 1682964793 8177 ca8ed30c733523c06933ee8f878f2e3f ""
+  "inercia.tex" 1683020678 10958 bc601e5e419de82a05295c49947c939f ""
   (generated)
   "build/inercia.aux"
   "build/inercia.log"

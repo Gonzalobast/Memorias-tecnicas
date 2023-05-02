@@ -121,12 +121,19 @@ Esta expresión nos permitirá calcular el momento de inercia de nuestro cuerpo 
 Los materiales empleados para el estudio de sus propiedades fueron:
 
 \begin{itemize}
-    \item Disco perforado
-    \item Esfera maciza
-    \item Cilindro macizo
-    \item Barra rígida
+    \item Disco perforado, de $381,39 \;g$ de masa y $29,9 \; cm$ de diámetro.
+    \item Esfera maciza, de $659,23 \; g$ de masa y $13,8 \; cm$ de diámetro
+    \item Cilindro macizo, de $384,29 \; cm $ de masa y $10 \; cm$ de diámetro
+    \item Barra rígida, de $65,7 \; cm$ de longitud
 \end{itemize}
-
+La incertidumbre de las medidas masas viene dada por la precisión instrumental de la balanza:
+\begin{equation}
+    s(m) = 0,01 \; g
+\end{equation}
+Por otro lado, la incertidumbre de las medidas realizadas con la regla de los diámetros y la longitud de la barra viene dada por la precisión instrumental de la regla empleada:
+\begin{equation}
+    s(x) = 0,001 \;m
+\end{equation}
 Para realizar las medidas contamos con los siguientes instrumentos:
 
 \begin{itemize}
@@ -137,6 +144,14 @@ Para realizar las medidas contamos con los siguientes instrumentos:
     \item Dinamómetro
 \end{itemize}
 
+En la siguiente figura podemos ver los materiales empleados:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{Images/Material MI-1.jpg}
+    \caption{Materiales empleados}
+\end{figure}
+
 El procedimiento experimental seguido en cada una de las dos partes de la práctica se detallará a continuación:
 
 \subsection{Determinación del momento de inercia de diferentes cuerpos}
@@ -145,9 +160,10 @@ Esta primera parte de la práctica se centra en determinar los momentos de inerc
 
 \begin{equation}
     T_{1/2} = \pi \sqrt{\frac{I}{D}}
+    \label{SemiT osc}
 \end{equation}
 
-Como observamos en la expresión anterior la relación entre el semiperíodo y el momento de inercia depende también de la constante $D$ del resorte, \textit{a priori} desconocida. Para calcular el valor de esa constante partiremos de la Ec.\ref{Constante resorte} y realizaremos un ajuste por mínimos cuadrados de $M$ frente s $\varphi$, donde la pendiente de la recta será la constante $D$. Para el ajuste tomaremos diez medidas con el dinámometro de la fuerza que es necesario ejercer para rotar el disco un determinado ángulo y, previo cálculo del momento de esas fuerzas, calcularemos la constante.
+Como observamos en la expresión anterior la relación entre el semiperíodo y el momento de inercia depende también de la constante $D$ del resorte, \textit{a priori} desconocida. Para calcular el valor de esa constante partiremos de la Ec.\ref{Constante resorte} ($M=-D\varphi$R) y realizaremos un ajuste por mínimos cuadrados de $M$ frente s $\varphi$, donde la pendiente de la recta será la constante $D$. Para el ajuste tomaremos diez medidas con el dinámometro de la fuerza que es necesario ejercer para rotar el disco un determinado ángulo y, previo cálculo del momento de esas fuerzas, calcularemos la constante.
 
 \par Para calcular los momentos de las fuerzas ejercidas vamos a suponer que el vector fuerza y el vector posición son perpendiculares, lo que nos permitirá trabajar solo con los módulos:
 
@@ -174,7 +190,40 @@ Las incertidumbres involucradas son:
     \end{equation}
 \end{itemize}
 
+Las incertidumbre de los ángulos medidos viene dada por la precisión instrumental del disco:
+
+\begin{equation}
+    s(\varphi) = 5^\circ = 0,087 \;rad
+\end{equation}
+
+Una vez conocida la constantee $D$ del resorte podemos proceder a estudiar el semiperíodo de rotación bajo el efecto de la fuerza recuperadora del resorte. Para ello, como hemos mencioando anteriormente, mediremos varios valores del semiperíodo empleando el detector fotoeléctrico para poder tener una mejor estimación de su valor. Una vez tengamos nuestro valor de referencia del semiperíodo podremos aplicar la Ec.\ref{SemiT osc} para calcular el momento de inercia de cada cuerpo. En concreto la expresión empleada será:
+
+\begin{equation}
+    I = D \left (\frac{T_{1/2}}{\pi}\right )^2
+    \label{Calculo MI figuras}
+\end{equation}
+
+A partir de propagación de incertidumbres podemos calcular la incertidumbre del momento de inercia experimental:
+
+\begin{equation}
+    s(I) = \sqrt{\left (\frac{\partial I}{\partial D}\right )^2s^2(D) + \left (\frac{\partial I}{\partial T_{1/2}}\right )^2s^2(T_{1/2})}
+\end{equation}
+
+Las incertidumbres que participan en esta expresión son:
+
+\begin{itemize}
+    \item La incertidumbre de la constante $D$ del resorte, que la obtendremos a partir del ajuste por mínimos cuadrados mencionado anteriormente.
+    \item La incertidumbre del semiperíodo de rotación, que viene dada por la precisión instrumental del detector fotoeléctrico:
+    \begin{equation}
+        s(T_{1/2}) = 0,001 \;s
+    \end{equation}
+\end{itemize}
+
 \section{Análisis de datos}
+
+\subsection{Determinación del momento de inercia de diferentes cuerpos}
+
+En la siguiente tabla podemos ver representadas las medidas tomadas en el laboratorio de los ángulo de rotación del disco y las fuerzas, con sus momentos asociados (Teniendo en cuenta que el radio del disco es $14,95 \; cm$), necesarias para producir esas rotaciones:
 
 
 \section{Conclusiones}

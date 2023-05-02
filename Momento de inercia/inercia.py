@@ -27,14 +27,23 @@ def regresionSimpleSenTermoIndependente(x,y):
 
 #Cálculo de la constante del resorte
 
-angulo = array([90,100,105,115,120,130,145,160,165,180]) #Ne grados, hay que pasarlo a radinas!!!!!!!!!!!
+def Gradosradianes(angulo):
+    angulorad = angulo*(pi/180)
+    return angulorad
+
+angulo = array([90,100,105,115,120,130,145,160,165,180]) #Ne grados, hay que pasarlo a radianes!!!!!!!!!!!
+
+print(f'Ángulos en radianes: {around(Gradosradianes(angulo),decimals=3)}')
 
 IncAngulo = 5 #Grados
 
 fuerza = array([0.19,0.23,0.24,0.25,0.27,0.29,0.31,0.33,0.34,0.4]) #newtons
 
-print(len(angulo))
-print(len(fuerza))
+#Momento de las fuerzas
+
+Momento = (14.95/100)*fuerza 
+
+print(f'Momento de las fuerzas: {Momento}')
 
 incFuerza = 0.01 #Newton
 

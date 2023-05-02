@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  1 MAY 2023 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  2 MAY 2023 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,7 +294,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (11.47289pt too wide) in paragraph at lines 142--142
+Overfull \hbox (9.39586pt too wide) in paragraph at lines 129--130
+\OT1/cmr/m/n/12 La in-cer-ti-dum-bre de las me-di-das ma-sas vie-ne da-da por la pre-ci-si^^Son ins-tru-men-tal
+ []
+
+<Images/Material MI-1.jpg, id=23, 1673.25125pt x 1151.30125pt>
+File: Images/Material MI-1.jpg Graphic file (type jpg)
+<use Images/Material MI-1.jpg>
+Package pdftex.def Info: Images/Material MI-1.jpg  used on input line 151.
+(pdftex.def)             Requested size: 292.5pt x 201.25237pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (11.47289pt too wide) in paragraph at lines 157--157
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son del mo-men-to de iner-cia de di-fe-ren-tes
  []
 
@@ -306,13 +319,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Overfull \hbox (28.71788pt too wide) in paragraph at lines 158--159
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./Images/Material MI-1.jpg>]
+Overfull \hbox (28.71788pt too wide) in paragraph at lines 174--175
 []\OT1/cmr/m/n/12 Para la in-cer-ti-dum-bre del mo-men-to apli-ca-re-mos pro-pa-ga-ci^^Son de in-cer-ti-dum-bres: 
  []
 
 
-Overfull \hbox (20.4624pt too wide) in paragraph at lines 171--172
+Overfull \hbox (20.4624pt too wide) in paragraph at lines 187--188
 \OT1/cmr/m/n/12 del dis-co con la re-gla mi-li-me-tra-da que cuen-ta con una pre-ci-si^^Son ins-tru-men-tal
+ []
+
+
+Overfull \hbox (16.47504pt too wide) in paragraph at lines 206--207
+[]\OT1/cmr/m/n/12 A par-tir de pro-pa-ga-ci^^Son de in-cer-ti-dum-bres po-de-mos cal-cu-lar la in-cer-ti-dum-bre
  []
 
 
@@ -322,7 +348,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[6]
+Overfull \hbox (11.47289pt too wide) in paragraph at lines 224--224
+[]\OT1/cmr/bx/n/14.4 Determinaci^^Son del mo-men-to de iner-cia de di-fe-ren-tes
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -330,23 +360,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6] (build/inercia.aux
+[7] (build/inercia.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 5779 strings out of 476024
- 94772 string characters out of 5794016
+ 5796 strings out of 476024
+ 95118 string characters out of 5794016
  1860382 words of memory out of 5000000
- 26180 multiletter control sequences out of 15000+600000
+ 26194 multiletter control sequences out of 15000+600000
  521397 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,63p,740b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on build/inercia.pdf (7 pages, 107645 bytes).
+ 57i,13n,63p,757b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on build/inercia.pdf (8 pages, 350910 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
