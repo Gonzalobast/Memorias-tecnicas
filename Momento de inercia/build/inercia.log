@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  2 MAY 2023 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  2 MAY 2023 19:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,20 +294,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (9.39586pt too wide) in paragraph at lines 129--130
+Overfull \hbox (9.39586pt too wide) in paragraph at lines 130--131
 \OT1/cmr/m/n/12 La in-cer-ti-dum-bre de las me-di-das ma-sas vie-ne da-da por la pre-ci-si^^Son ins-tru-men-tal
  []
 
 <Images/Material MI-1.jpg, id=23, 1673.25125pt x 1151.30125pt>
 File: Images/Material MI-1.jpg Graphic file (type jpg)
 <use Images/Material MI-1.jpg>
-Package pdftex.def Info: Images/Material MI-1.jpg  used on input line 151.
+Package pdftex.def Info: Images/Material MI-1.jpg  used on input line 152.
 (pdftex.def)             Requested size: 292.5pt x 201.25237pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (11.47289pt too wide) in paragraph at lines 157--157
+Overfull \hbox (11.47289pt too wide) in paragraph at lines 158--158
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son del mo-men-to de iner-cia de di-fe-ren-tes
  []
 
@@ -327,17 +327,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./Images/Material MI-1.jpg>]
-Overfull \hbox (28.71788pt too wide) in paragraph at lines 174--175
+Overfull \hbox (28.71788pt too wide) in paragraph at lines 175--176
 []\OT1/cmr/m/n/12 Para la in-cer-ti-dum-bre del mo-men-to apli-ca-re-mos pro-pa-ga-ci^^Son de in-cer-ti-dum-bres: 
  []
 
 
-Overfull \hbox (20.4624pt too wide) in paragraph at lines 187--188
+Overfull \hbox (20.4624pt too wide) in paragraph at lines 188--189
 \OT1/cmr/m/n/12 del dis-co con la re-gla mi-li-me-tra-da que cuen-ta con una pre-ci-si^^Son ins-tru-men-tal
  []
 
 
-Overfull \hbox (16.47504pt too wide) in paragraph at lines 206--207
+Overfull \hbox (16.47504pt too wide) in paragraph at lines 207--208
 []\OT1/cmr/m/n/12 A par-tir de pro-pa-ga-ci^^Son de in-cer-ti-dum-bres po-de-mos cal-cu-lar la in-cer-ti-dum-bre
  []
 
@@ -349,7 +349,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Overfull \hbox (11.47289pt too wide) in paragraph at lines 224--224
+Overfull \hbox (0.614pt too wide) in paragraph at lines 227--228
+[]\OT1/cmr/m/n/12 Una vez cal-cu-la-dos los mo-men-tos de iner-cia ex-pe-ri-men-ta-les de ca-da cuer-po
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+<Images/Material MI 2.jpeg, id=40, 1326.9575pt x 1003.75pt>
+File: Images/Material MI 2.jpeg Graphic file (type jpg)
+<use Images/Material MI 2.jpeg>
+Package pdftex.def Info: Images/Material MI 2.jpeg  used on input line 263.
+(pdftex.def)             Requested size: 253.49762pt x 191.74065pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./Images/Material MI 2.jpeg>]
+Overfull \hbox (11.47289pt too wide) in paragraph at lines 271--271
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son del mo-men-to de iner-cia de di-fe-ren-tes
  []
 
@@ -360,23 +386,57 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7] (build/inercia.aux
+[9]
+Overfull \hbox (35.95291pt too wide) in paragraph at lines 314--314
+[]\OT1/cmr/bx/n/14.4 Determinaci^^Son de los mo-men-tos de iner-cia de di-fe-ren-tes
+ []
+
+
+Overfull \hbox (4.9301pt too wide) in paragraph at lines 316--317
+\OT1/cmr/m/n/12 a es-tu-diar apli-ca-re-mos la Ec.20[]. Pa-ra ello ne-ce-si-ta-re-mos co-no-cer el se-mi-per^^S^^Podo
+ []
+
+
+Overfull \hbox (4.66666pt too wide) in paragraph at lines 316--317
+\OT1/cmr/m/n/12 de os-ci-la-ci^^Son de los di-fe-ren-tes cuer-pos, que es-ti-ma-re-mos a par-tir de un con-jun-to
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+Overfull \hbox (12.79027pt too wide) in paragraph at lines 361--362
+[]\OT1/cmr/m/n/12 Por tan-to nues-tro va-lor fi-nal de re-fe-ren-cia del se-mi-per^^S^^Podo y su in-cer-ti-dum-bre
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11] (build/inercia.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 5796 strings out of 476024
- 95118 string characters out of 5794016
- 1860382 words of memory out of 5000000
- 26194 multiletter control sequences out of 15000+600000
+ 5814 strings out of 476024
+ 95457 string characters out of 5794016
+ 1865382 words of memory out of 5000000
+ 26210 multiletter control sequences out of 15000+600000
  521397 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,63p,757b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on build/inercia.pdf (8 pages, 350910 bytes).
+ 57i,13n,63p,811b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on build/inercia.pdf (12 pages, 487090 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

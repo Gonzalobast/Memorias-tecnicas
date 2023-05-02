@@ -114,6 +114,7 @@ Esta expresión nos permitirá calcular el momento de inercia de nuestro cuerpo 
 
 \begin{equation}
     I_{ee} = I_0 + md^2
+    \label{Steiner}
 \end{equation}
 
 \section{Materiales y metodología}
@@ -137,8 +138,8 @@ Por otro lado, la incertidumbre de las medidas realizadas con la regla de los di
 Para realizar las medidas contamos con los siguientes instrumentos:
 
 \begin{itemize}
-    \item Balanza
-    \item Recta milimetrada
+    \item Balanza, con una precisión de 0,01 g
+    \item Recta milimetrada, con una precisión de 0,001 m
     \item Soporte giratorio dotado de un resorte
     \item Detector fotoeléctrico empleado para medir semiperíodos
     \item Dinamómetro
@@ -206,7 +207,11 @@ Una vez conocida la constantee $D$ del resorte podemos proceder a estudiar el se
 A partir de propagación de incertidumbres podemos calcular la incertidumbre del momento de inercia experimental:
 
 \begin{equation}
-    s(I) = \sqrt{\left (\frac{\partial I}{\partial D}\right )^2s^2(D) + \left (\frac{\partial I}{\partial T_{1/2}}\right )^2s^2(T_{1/2})}
+    \begin{gathered}
+        s(I) = \sqrt{\left (\frac{\partial I}{\partial D}\right )^2s^2(D) + \left (\frac{\partial I}{\partial T_{1/2}}\right )^2s^2(T_{1/2})}\\
+        s(I) = \sqrt{\left (\frac{T_{1/2}}{\pi}\right )^4s^2(D) + \left (\frac{2T_{1/2}D}{\pi^2}\right )^2s^2(T_{1/2})}
+        \label{Inc MI figuras}
+    \end{gathered}
 \end{equation}
 
 Las incertidumbres que participan en esta expresión son:
@@ -219,11 +224,156 @@ Las incertidumbres que participan en esta expresión son:
     \end{equation}
 \end{itemize}
 
+Una vez calculados los momentos de inercia experimentales de cada cuerpo debemos compararlos con el valor teórico, calculado a partir de la Ec.\ref{MI cuerpos geometricos} para cada figura concreta. Estos valores teóricos también cuentan con una incertidumbre asociada, pues se calculan en función de las dimensiones de la figura, medidas con la regla milimetrada, y de la masa, medida con la balanza. A continuación detallaremos cuál será la incertidumbre del momento de inercia de cada figura con la que trabajamos, calculadas a partir de propagación de incertidumbres:
+
+\begin{itemize}
+    \item El momento de inercia del disco es $\frac{MR^2}{2}$, siendo $M$ su masa y $R$ su radio, por lo que el valor teórico con su incertidumbre es:
+    \begin{equation}
+        \begin{gathered}
+            I_D = 0.004262 \; kg \cdot m^2\\
+            s(I_D) = \sqrt{\left (\frac{\partial I_D}{\partial M}\right )^2s^2(M) + \left (\frac{\partial I_D}{\partial R}\right )^2s^2(R)} \\ s(I_D)= \sqrt{\left (\frac{R^2}{2}\right )^2s^2(M) + (MR)^2s^2(R)} = 0.000074 \;kg\cdot m^2
+        \end{gathered}
+    \end{equation}
+    \item El momento de inercia del cilindro tiene la misma ecuación ($\frac{MR^2}{2}$), por lo que aplicando la ecuación anterior con las dimensiones del cilindro obtenemos su momento de inercia con la incertidumbre asociada:
+    \begin{equation}
+        \begin{gathered}
+            I_C = 0.00048036 \; kg \cdot m^2\\
+            s(I_C) = 0.00000025 \; kg \cdot m^2
+        \end{gathered}
+    \end{equation}
+    \item El último cuerpo con el que trabajamos en esta parte de la práctica fue la esfera, cuyo momento de inercia es $\frac{2MR^2}{5}$, por lo que el valor teórico con su incertidumbre asociada es de:
+    \begin{equation}
+        \begin{gathered}
+            I_E = 0.000726 \; kg \cdot m^2 \\
+            s(I_E) = \sqrt{\left (\frac{2R^2}{5}\right )^2s^2(M) + \left (\frac{4MR}{5}\right )^2s^2(R)} = 0,000045 \; kg\cdot m^2
+        \end{gathered}
+    \end{equation}
+\end{itemize}
+
+\subsection{Verificación del teorema de Steiner}
+
+En esta segunda parte de la práctica trataremos de verificar el teorema de Steiner (Ec.\ref{Steiner}). Para ello estudiaremos el momento de inercia respecto a varios ejes de dos cuerpos, el disco perforado y la varilla metálico. El disco perforado era el del apartado anterior, por lo que sus dimensiones son las mismas. La barra metálica tiene un longitud de $65,7$ cm de longitud y una masa de ?????????????0,14410?????????.
+
+\par Para verficar la igualdad del teorema vamos a realizar una regresión lineal de $I$ frente a $d^2$, la pendiente de esa recta será la masa $m$ del cuerpo y el término independiente será $I_0$. Para ello mediremos diez valores del semiperíodo (Para calcular $I$) con los cuerpos rotando alrededor de varios ejes. En primer lugar mediremos 10 semiperíodos con el cuerpo rotando sobre el eje por el que pasa por el centro de masas para calcular $I_0$. Luego realizaremos este mismo procedimiento con el cuerpo rotando sobre ejes situados a una distancia $d$ del eje paralelo que pasa por el centro de masas.
+
+\par En el caso del disco perforado tomaremos 4 conjuntos de medidas, fijando el disco sobre cada una de las perforaciones, que se sitúan a distancias de 3, 6, 9 y 12 cm del centro de masas respectivamente, como se puede ver en la siguiente figura.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.65\linewidth]{Images/Material MI 2.jpeg}
+    \caption{Montaje experimental para verificar el teorema de Steiner con el disco}
+\end{figure}
+
+\par En el caso de la varilla tomaremos 10 conjuntos de medidas, fijando la varilla sobre cada una de las perforaciones transversales con las que cuenta la varilla, situadas a 1 cm la una de la otra. Por tanto las distancias irán de 1 a 10 cm, aumentando de uno en uno. Cabe destacar que en esta parte de la práctica solo pudimos tomar 5 medidas del semiperíodo para cada valor de distancia por problemas técnicos. El problema observado fue que los valores medidos de los semiperíodos no resultaban nada fiables, oscilaban con frecuencia y en muchos momentos perdían la linealidad, por lo que es posible que los resultados en esta parte de la práctica no sean los esperados.
+
 \section{Análisis de datos}
 
 \subsection{Determinación del momento de inercia de diferentes cuerpos}
 
 En la siguiente tabla podemos ver representadas las medidas tomadas en el laboratorio de los ángulo de rotación del disco y las fuerzas, con sus momentos asociados (Teniendo en cuenta que el radio del disco es $14,95 \; cm$), necesarias para producir esas rotaciones:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    Medida & $F \; (N)$ & $\varphi \; (^{\circ})$ & $\varphi \; (rad)$ & $M \; (N\cdot m)$ & $s(M) \; (N\cdot m)$ \\ \hline
+    1  & 0,19 & 90  & 1,571 & 0,0284 & 0,0015 \\ \hline
+    2  & 0,23 & 100 & 1,745 & 0,0344 & 0,0015 \\ \hline
+    3  & 0,24 & 105 & 1,833 & 0,0359 & 0,0015 \\ \hline
+    4  & 0,25 & 115 & 2,007 & 0,0374 & 0,0015 \\ \hline
+    5  & 0,27 & 120 & 2,094 & 0,0404 & 0,0015 \\ \hline
+    6  & 0,29 & 130 & 2,269 & 0,0434 & 0,0015 \\ \hline
+    7  & 0,31 & 145 & 2,531 & 0,0463 & 0,0015 \\ \hline
+    8  & 0,33 & 160 & 2,793 & 0,0493 & 0,0015 \\ \hline
+    9  & 0,34 & 165 & 2,880 & 0,0508 & 0,0015 \\ \hline
+    10 & 0,4  & 180 & 3,142 & 0,0598 & 0,0015 \\ \hline
+    \end{tabular}
+    \caption{Datos empleados para calcular la constante del resorte}
+    \label{Tabla D resorte}
+\end{table}
+
+A partir de estos datos vamos a realizar una regresión lineal simple por el método de los mínimos cuadrados para ajustar $M$ frente a $\varphi$, donde la pendiente de esa recta será la constante $D$ del muelle. Cabe destacar que en la Ec.\ref{Constante resorte} aparece el signo menos porque $M$ actúa como el momento de una fuerza recuperadora, pero nosotros ajustaremos nuestros valores a la recta $M=D\varphi$. Los datos obtenidos a partir del ajuste son:
+
+\begin{equation}
+    \begin{gathered}
+        b = 0.01857 \; N\cdot m \cdot rad^{-1}\\
+        s(b) =  0.00024 \; N\cdot m \cdot rad^{-1}\\
+        r =  0.9992 \\
+        s =  0.0017
+    \end{gathered}
+\end{equation}
+
+Por tanto el valor de la constante $D$ del resorte es:
+
+\begin{equation}
+    D = 0.01857 \pm 0.00024 \; N\cdot m \cdot rad^{-1}
+\end{equation}
+
+Una vez realizado este cálculo podemos empezar a determinar los diversos momentos de inercia.
+
+\subsection{Determinación de los momentos de inercia de diferentes cuerpos}
+
+Para determinar el momento de inercia de diferentes los diferentes cuerpos a estudiar aplicaremos la Ec.\ref{Calculo MI figuras}. Para ello necesitaremos conocer el semiperíodo de oscilación de los diferentes cuerpos, que estimaremos a partir de un conjunto de 15 medidas, para tener más fiabilidad.
+
+\subsubsection{Disco}
+
+En la siguiente tabla podemos ver las 15 medidas del semiperíodo del disco:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    Medida  &  $T_{1/2} \; (s)$ & Medida   &   $T_{1/2} \; (s)$    & Medida   &   $T_{1/2} \; (s)$    \\ \hline
+    1 & 1,429 & 6  & 1,445 & 11 & 1,417 \\ \hline
+    2 & 1,441 & 7  & 1,441 & 12 & 1,415 \\ \hline
+    3 & 1,446 & 8  & 1,431 & 13 & 1,406 \\ \hline
+    4 & 1,449 & 9  & 1,425 & 14 & 1,406 \\ \hline
+    5 & 1,446 & 10 & 1,424 & 15 & 1,428 \\ \hline
+    \end{tabular}
+    \caption{Datos de los semiperíodos del disco}
+    \label{SemiT disco}
+\end{table}
+
+Para determinar un valor de referencia para el semiperíodo vamos a realizar un tratamiento estadístico a los datos que nos permitirá escoger un valor fiable. En primer lugar calcularemos la media y la desviación típica de la muestra:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T}_{1/2} = 1.4299 \; s\\
+        s_A(T_{1/2}) = 0.014 \; s
+    \end{gathered}
+\end{equation}
+
+A partir de estos datos estableceremos un intervalo de confianza centrado en el valor medio para evaluar los posibles valores discordantes a eliminar. Este intervalo vendrá dado por la siguiente expresión: $\overline{T}_{1/2} \pm k\cdot s_A(T_{1/2})$.Donde $k$ es el factor de cobertura, que con $k=2$ nos dará una confianza del $95\%$. En nuestro caso el intervalo será:
+
+\begin{equation}
+    1,4019 \; s \leq x_i \leq 1,4579 \; s
+\end{equation}
+
+Como podemos ver, todos los datos entran en nuestro intervalo por lo que no necesitamos eliminar ninguno. El siguiente paso será calcular la desviación típica de la media, así como la incertidumbre combinada:
+
+\begin{equation}
+    \begin{gathered}
+        s_A(\overline{T}_{1/2}) = 0.0036 \; s\\
+        s_C(\overline{T}_{1/2}) = 0.0037 \; s
+    \end{gathered}
+\end{equation}
+
+Por tanto nuestro valor final de referencia del semiperíodo y su incertidumbre es:
+
+\begin{equation}
+    T_{1/2} = 1.4299 \pm 0.0037 \; s
+\end{equation}
+
+Si aplicamos la Ec.\ref{Calculo MI figuras} para calcular el valor del momento de inercia y la Ec.\ref{Inc MI figuras} para calcular su incertidumbre obtenemos:
+
+\begin{equation}
+    I_D = 0.003847 \pm 4.9 \cdot 10^{-5} \; kg\cdot m^2
+\end{equation}
+
+Comparando este valor con el teórico, de $0,004262 \; kg \cdot m^2$ podemos ver que, aunque no entra en el rango de incertidumbre, el resultado se acerca bastante a los esperado.
+
+\subsubsection{Cilindro}
+
 
 
 \section{Conclusiones}
