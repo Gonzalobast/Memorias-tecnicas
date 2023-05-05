@@ -76,6 +76,7 @@ print(len(disco))
 
 # Mierdas estadisticas!!!!!!
 
+
 def VariasMedidas(x):   
     k = 2 #Factor de cobertura
     
@@ -103,21 +104,21 @@ def VariasMedidas(x):
     sa = np.std(datos)/sqrt(len(datos)) #Incertidumbre de tipo a de la media
     
     sc = sqrt(sa**2 + sb**2)    #Incertidumbre combinada
+
+    print(f'Datos de la muestra:')
+    print(f'media inicial: {media1}')
+    print(f'Desv tipica inicial: {desviacion1}')
+    print(f'sb: {sb}')
+    print(f'Datos excluidos: {excluidos}')
+    print(f'Datos finales: {datos}')
+    print(f'Media final: {media2}')
+    print(f'Desv tipica final de la muestra: {np.std(datos)}')
+    print(f'sa de la media {sa}')
+    print(f'sc de la muestra: {sc}')
     
     return (sa,sb,sc,media2,excluidos,datos,media1,desviacion1)
 
-#Codigo que te da los valores
-
-incertidumbresDisco = VariasMedidas(disco)
-
-print('sa = ',incertidumbresDisco[0])
-print('sb = ',incertidumbresDisco[1])
-print('sc = ',incertidumbresDisco[2])
-print('media final = ',incertidumbresDisco[3])
-print('datos excluidos: ',incertidumbresDisco[4])
-print('datos buenos: ',incertidumbresDisco[5])
-print('media inicial = ',incertidumbresDisco[6])
-print('incertidumbre de la muestra = ',incertidumbresDisco[7])
+#incertidumbresDisco = VariasMedidas(disco)
 
 
 #### Cálculo del momento de inercia
@@ -131,14 +132,16 @@ def IncInercia(D,semiT,IncD):
     sI = sqrt(((semiT/pi)**4)*IncD**2 + ((2*semiT*D)/pi**2)**2*IncT**2) 
     return sI
 
-InerciaDisco = (inercia(constante[0],incertidumbresDisco[3]),IncInercia(constante[0],incertidumbresDisco[3],constante[1]))
-print(f'Momento de inercia del disco y inc: {InerciaDisco}')
+
+
+"""InerciaDisco = (inercia(constante[0],incertidumbresDisco[3]),IncInercia(constante[0],incertidumbresDisco[3],constante[1]))
+print(f'Momento de inercia del disco y inc: {InerciaDisco}')"""
 
 #Esfera
 
-masaEsfera = 659.23/1000
+"""masaEsfera = 659.23/1000
 
-esferaSemiT = np.array([0.727,0.726,0.727,0.727,0.726,0.728,0.727,0.729,0.729,0,730,0,729,0.729,0.728])
+esferaSemiT = np.array([0.727,0.726,0.727,0.727,0.726,0.728,0.727,0.729,0.729,0.730,0.729,0.729,0.728])
 
 print(len(esferaSemiT))
 
@@ -148,8 +151,14 @@ IncD = 0.001 #metros
 
 MIesferaT = (2*masaDisco*(DiamEsfera/2)**2)/5
 
+print('Datos de la esfera')
+incertidumbresEsfera = VariasMedidas(esferaSemiT)
+
 IncMIesferaT = sqrt(((2*(DiamEsfera/2)**2)/5)**2*(0.01/1000)**2 + ((4*masaEsfera*(DiamEsfera/2))/2)**2*(0.0005**2))
 print(f'El MI teórico de la esfera es {MIesferaT} y la incertidumbre del MI teórico de la esfera {IncMIesferaT}')
+
+InerciaEsfera = (inercia(constante[0],incertidumbresEsfera[3]),IncInercia(constante[0],incertidumbresEsfera[3],constante[1]))
+print(f'Momento de inercia de la esfera y inc: {InerciaEsfera}')
 
 ###### Cilindro
 masaCilindro=384.29/1000
@@ -163,7 +172,29 @@ MIcilindroT = (masaCilindro*(DiamCil/2)**2)/2
 IncMIcilindroT = sqrt(((DiamCil/4)**2)*(0.01/1000)**2 + ((DiamCil/2)*(masaCilindro/1000)**2)*(0.0005**2))
 print(f'El MI teórico del cilindro es {MIcilindroT} y la incertidumbre del MI teórico del cilindro es: {IncMIcilindroT}')
 
+print('Datos del cilindro')
+incertidumbresCilindro = VariasMedidas(semiTcil)
+
+InerciaCilindro = (inercia(constante[0],incertidumbresCilindro[3]),IncInercia(constante[0],incertidumbresCilindro[3],constante[1]))
+print(f'Momento de inercia del cilindro y inc: {InerciaCilindro}')"""
+
+
 ############## Teorema de Steiner #############
+
+class Steiner:
+    def __init__(self,datos,d) -> None:
+        self.d = d
+        self.datos= datos
+    def MI(self):
+        print(f'Datos para d = {self.d}')
+        D = constante[0]
+        IncD = constante[3]
+        semiT = VariasMedidas(self.datos)
+        MI = inercia(D,semiT[3])
+        IncMI = IncInercia(D,semiT[3],IncD)
+        print(f'Momento de inercia: {MI} y su incertidumbre{IncMI}')
+
+
 
 #Disco con las diferentes posiciones
 
@@ -171,24 +202,35 @@ d1 = 3 # cm
 
 Datosd1 = np.array([1.475,1.477,1.479,1.481,1.479,1.481,1.485,1.481,1.484,1.479,1.483,1.486,1.486,1.487,1.484])  #Semiperiodo del disco con d = 3cm
 
-print(len(Datosd1))
+"""print('Datos para d =3cm')
+incertidumbresDisco3 = VariasMedidas(Datosd1)
+
+InerciaDisco3 = (inercia(constante[0],incertidumbresDisco3[3]),IncInercia(constante[0],incertidumbresDisco3[3],constante[1]))
+print(f'Momento de inercia del disco para d=3: {InerciaDisco3}')"""
 
 d2 = 6
 
 Datosd2 = np.array([1.685,1.687,1.691,1.692,1.692,1.659,1.680,1.678,1.679,1.684,1.688,1.693,1.686,1.679,1.672])
 
-print(len(Datosd2))
+SteinerD2 = Steiner(Datosd2,d2)
+#SteinerD2.MI()
+
+
 
 
 d3 = 9
 
 Datosd3 = np.array([1.928,1.954,1.925,1.956,1.958,1.948,1.937,1.910,1.916,1.917,1.940,1.954,1.943,1.942,1.946])
 
+SteinerD3 = Steiner(Datosd3,d3)
+#SteinerD3.MI()
+
 d4 = 12
 
-Datosd4 = np.array([2.396,2,414,2.401,2.463,2.376,2.395,2.436,2.463,2.439,2.444,2.470,2.493,2.474,2.491,2.483])
+Datosd4 = np.array([2.396,2.414,2.401,2.463,2.376,2.395,2.436,2.463,2.439,2.444,2.470,2.493,2.474,2.491,2.483])
 
-
+SteinerD4 = Steiner(Datosd4,d4)
+SteinerD4.MI()
 
 # Barra
 

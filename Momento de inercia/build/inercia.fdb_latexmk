@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1683049685 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" "build/inercia.pdf" "inercia" 1683049687 0
+["pdflatex"] 1683287884 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" "build/inercia.pdf" "inercia" 1683287888 0
   "Images/Material MI 2.jpeg" 1683017226 113257 a7c800c8c9793b7cb202afa1d3931ff8 ""
   "Images/Material MI-1.jpg" 1683016140 228517 22e79d22d4dc5e77b4be94c2090c95d7 ""
-  "build/inercia.aux" 1683049687 2464 82e3f937aa627c22d5e071a50bace099 "pdflatex"
-  "build/inercia.toc" 1683049687 863 4b2ec59785bbcfbae907ed285ec6c53a "pdflatex"
-  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" 1683049682 20318 79dd9bd8fa19f26aa1cdffee4117a7a0 ""
+  "build/inercia.aux" 1683287888 3391 0441f74ed0dc6eb086628ef20d055e32 "pdflatex"
+  "build/inercia.toc" 1683287888 1089 60ac70137f01fa9c334d0b94b228a6d9 "pdflatex"
+  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" 1683287876 31536 d32c2e665321b767a216b26163fb38e7 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1679153495 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1679143990 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1679143990 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -74,7 +74,7 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1679170740 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1679170869 7883444 31504c5b761f71e4bd43423edb7760cb ""
   "c:/texlive/2022/texmf.cnf" 1679170706 713 e69b156964470283e0530f5060668171 ""
-  "inercia.tex" 1683049682 20318 79dd9bd8fa19f26aa1cdffee4117a7a0 ""
+  "inercia.tex" 1683287876 31536 d32c2e665321b767a216b26163fb38e7 ""
   (generated)
   "build/inercia.aux"
   "build/inercia.log"

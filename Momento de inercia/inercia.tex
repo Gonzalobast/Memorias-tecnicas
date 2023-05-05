@@ -374,6 +374,217 @@ Comparando este valor con el teórico, de $0,004262 \; kg \cdot m^2$ podemos ver
 
 \subsubsection{Cilindro}
 
+En la siguiente tabla podemos ver las medidas tomadas en el laboratorio del semiperíodo del cilindro:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    Medida  &  $T_{1/2} \; (s)$ & Medida   &   $T_{1/2} \; (s)$    & Medida   &   $T_{1/2} \; (s)$    \\ \hline
+    1 & 0,436 & 6  & 0,436 & 11 & 0,433 \\ \hline
+    2 & 0,435 & 7  & 0,438 & 12 & 0,437 \\ \hline
+    3 & 0,431 & 8  & 0,435 & 13 & 0,435 \\ \hline
+    4 & 0,429 & 9  & 0,435 & 14 & 0,435 \\ \hline
+    5 & 0,432 & 10 & 0,433 & 15 & 0,435 \\ \hline
+    \end{tabular}
+    \caption{Datos del semiperíodo del cilindro}
+    \label{Datos semiT cilindro}
+\end{table}
+
+Para determinar un valor de referencia del semiperíodo del cilindro vamos a realizar el mismo tratamiento estadístico que realizamos en el apartado anterior. La media y la desviación típica de la muestra son:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T}_{1/2} = 0.4344 \; s\\
+        s_A(T_{1/2}) = 0.0022 \; s
+    \end{gathered}
+\end{equation}
+
+Si establecemos nuestro intervalo de confianza aplicando el factor de cobertura $k=2$, que en este caso será el intervalo $(0,4300 \leq x_i \leq 0.4388)$, podemos ver que el dato $T_{1/2}=0,429 \; s$ se queda fuera, por lo que lo descartaremos. Una vez descartado este valor vamos a calcular la nueva media y la desviación típica final de la media, así como la incertidumbre combinada:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T}_{1/2} = 0.43480 \; s \\
+        s_A(\overline{T}_{1/2}) = 0.00046 \; s \\
+        s_C(\overline{T}_{1/2}) = 0.0011 \; s
+    \end{gathered}
+\end{equation}
+
+Por tanto, nuestro valor de referencia del semiperíodo con su incertidumbre es:
+
+\begin{equation}
+    T_{1/2} = 0.4348 \pm 0.0011 \; s
+\end{equation}
+
+Si aplicamos la Ec.\ref{Calculo MI figuras} para calcular el valor del momento de inercia y la Ec.\ref{Inc MI figuras} para calcular su incertidumbre obtenemos:
+
+\begin{equation}
+    I_C = 0.0003557 \pm 4.8 \cdot 10^{-6} \; kg\cdot m^2
+\end{equation}
+
+\subsubsection{Esfera}
+
+En la siguiente tabla podemos ver las medidas tomadas en el laboratorio del semiperíodo del cilindro:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|cc}
+    \hline
+    Medida  &  $T_{1/2}\; (s)$ & Medida   & $T_{1/2}\; (s)$   & \multicolumn{1}{c|}{Medida}   & \multicolumn{1}{c|}{$T_{1/2}\; (s)$}      \\ \hline
+    1 & 0,727 & 6  & 0,728 & \multicolumn{1}{c|}{11} & \multicolumn{1}{c|}{0,729} \\ \hline
+    2 & 0,726 & 7  & 0,727 & \multicolumn{1}{c|}{12} & \multicolumn{1}{c|}{0,729} \\ \hline
+    3 & 0,727 & 8  & 0,729 & \multicolumn{1}{c|}{13} & \multicolumn{1}{c|}{0,728} \\ \hline
+    4 & 0,727 & 9  & 0,729 &                         &                            \\ \cline{1-4}
+    5 & 0,726 & 10 & 0,73  &                         &                            \\ \cline{1-4}
+    \end{tabular}
+    \caption{Datos del semiperíodo de la esfera}
+    \label{Datos semiT esfera}
+\end{table}
+
+Para determinar un valor de referencia del semiperíodo del cilindro vamos a realizar el mismo tratamiento estadístico que realizamos en el apartado anterior. La media y la desviación típica de la muestra son:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T}_{1/2} = 0.7278 \; s\\
+        s_A(T_{1/2}) = 0.0012 \; s
+    \end{gathered}
+\end{equation}
+
+Si establecemos nuestro intervalo de confianza aplicando el factor de cobertura $k=2$, que en este caso será el intervalo $(0,7254 \leq x_i \leq 0.7302)$, podemos ver que todos los datos están dentro del intervalo, por lo que no tenemos que descartar ninguno. La desviación típica de la media y la incertidumbre combinada tienen los siguientes valores:
+
+\begin{equation}
+    \begin{gathered}
+        s_A(\overline{T}_{1/2}) = 0.00034 \; s\\
+        s_C(\overline{T}_{1/2}) = 0.0010 \; s
+    \end{gathered}
+\end{equation}
+
+Después de este tratamiento de los datos ya tenemos nuestro valor de referencia del semiperíodo de la esfera con su incertidumbre:
+
+\begin{equation}
+    T_{1/2} = 0.7278 \pm 0.0010 \; s
+\end{equation}
+
+Si aplicamos la Ec.\ref{Calculo MI figuras} para calcular el valor del momento de inercia y la Ec.\ref{Inc MI figuras} para calcular su incertidumbre obtenemos:
+
+\begin{equation}
+    I_E = 0.000997 \pm  1,3 \cdot 10^{-5} \;kg\cdot m^2
+\end{equation}
+
+\subsection{Verificación del teorema de Steiner}
+
+En esta parte de la práctica verificaremos el teorema de Steiner midiendo diferentes valores del momento de inercia en diferentes situaciones, como explicamos en la metodología. Para ello aplicaremos el teorema a dos cuerpos diferentes, el disco perforado con el que ya trabajamos y una barra metálica.
+
+\subsubsection{Disco perforado}
+
+Trabajaremos con un disco perforado con un radio de $14,95 \pm 0,05 \; cm$ y una masa de $381,39 \pm 0,01 \;g$. Como mencionamos en la metodología tomaremos las medidas del momento de inercia a distancias separadas entre sí $3\;cm$. Por tanto, los valores de $d$ para los que tomaremos medidas con su incertidumbre son:
+
+\begin{equation}
+    d = n\cdot 3,0 \pm 0,1 \; cm \quad n=1,2,3,4
+\end{equation}
+
+En la siguiente tabla representaremos todos los valores de los semiperíodos medidos para cada valor de $n$:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    $d=3\; cm$ &  $T_{1/2} \; (s)$ &  $d=6 \; cm$  & $T_{1/2} \; (s)$ & $d=9\;cm$   & $T_{1/2} \; (s)$ &  $d=12 \;cm$  & $T_{1/2} \; (s)$ \\ \hline
+    1  & 1.475 & 1  & 1.685 & 1  & 1.928 & 1  & 2.396 \\ \hline
+    2  & 1.477 & 2  & 1.687 & 2  & 1.954 & 2  & 2.414 \\ \hline
+    3  & 1.479 & 3  & 1.691 & 3  & 1.925 & 3  & 2.401 \\ \hline
+    4  & 1.481 & 4  & 1.692 & 4  & 1.956 & 4  & 2.463 \\ \hline
+    5  & 1.479 & 5  & 1.692 & 5  & 1.958 & 5  & 2.376 \\ \hline
+    6  & 1.481 & 6  & 1.659 & 6  & 1.948 & 6  & 2.395 \\ \hline
+    7  & 1.485 & 7  & 1.680 & 7  & 1.937 & 7  & 2.436 \\ \hline
+    8  & 1.481 & 8  & 1.678 & 8  & 1.910 & 8  & 2.463 \\ \hline
+    9  & 1.484 & 9  & 1.679 & 9  & 1.916 & 9  & 2.439 \\ \hline
+    10 & 1.479 & 10 & 1.684 & 10 & 1.917 & 10 & 2.444 \\ \hline
+    11 & 1.483 & 11 & 1.688 & 11 & 1.940 & 11 & 2.470 \\ \hline
+    12 & 1.486 & 12 & 1.693 & 12 & 1.954 & 12 & 2.493 \\ \hline
+    13 & 1.486 & 13 & 1.686 & 13 & 1.943 & 13 & 2.474 \\ \hline
+    14 & 1.487 & 14 & 1.679 & 14 & 1.942 & 14 & 2.491 \\ \hline
+    15 & 1.484 & 15 & 1.672 & 15 & 1.946 & 15 & 2.483 \\ \hline
+    \end{tabular}
+    \caption{Datos de los semiperíodos medidos en el disco perforado}
+    \label{Datos semiT steiner 1}
+    \end{table}
+
+
+A partir de estos datos vamos a calcular el momento de inercia para cada uno de los valores de $d$ aplicando un tratamiento estadístico similar al que realizamos en el apartado anterior. En primer lugar vamos a buscar un valor de referencia del semiperíodo para cada conjunto de datos y luego, a partir de la Ec.\ref{Calculo MI figuras} calcularemos el momento de inercia.
+
+\par Vamos a comenzar con $d=3\; cm$. La media y la desviación típica de los semiperíodos para este valor de $d$ son:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T}_{1/2} = 1.4818\; s \\
+        s_A(T_{1/2}) =  0.0034 \; s
+    \end{gathered}
+\end{equation}
+
+A partir de estos datos vamos a estbalecer nuestro intervalo de confianza, aplicando el factor de cobertura $k=2$, como en apartados anteriores. En nuestro caso nuestro intervalo es $\overline{T}_{1/2} \pm 2\cdot s_A(T_{1/2}) = [1,4750;1,4886]$. Por tanto, todos los valores medidos entran en el intervalo y no tenemos que eliminar ningún dato. Los siguientes valores calculados son la desviación típica de la media y la incertidumbre combinada, que será con la que expresemos el valor final del semiperíodo:
+
+\begin{equation}
+    \begin{gathered}
+        s_A(\overline{T}_{1/2}) = 0.00089\; s\\
+        s_C(\overline{T}_{1/2}) = 0.0013\; s
+    \end{gathered}
+\end{equation}
+
+Finalmente para $d=3 \; cm$ tenemos un valor de referencia del semiperíodo de:
+
+\begin{equation}
+    T_{1/2} = 1.4818 \pm 0.0013\; s
+\end{equation}
+
+Aplicando la Ec.\ref{Calculo MI figuras} y la Ec.\ref{Inc MI figuras} obtenemos un momento de inercia con su incertidumbre para $d=3 \; cm$ de:
+
+\begin{equation}
+    I = 0.004131 \pm 5,3 \cdot 10^{-5} \; kg\cdot m^2
+\end{equation}
+
+Ahora aplicaremos este mismo tratamiento estadístico para $d=6 \; cm$, para calcular un valor de referencia del semiperíodo y luego el momento de inercia. Las operaciones realizadas son idénticas pero cabe destacar que en esta ocasión tuvimos que descartar el dato de $T_{1/2}=1,659 \;s$, que se salía de nuestro intervalo de confianza después de aplicar el factor de cobertura $k=2$. Después de descartar el dato volvimos a calcular la media y la incertidumbre combinada de forma idéntica a como lo hicimos en el apartado anterior. Finalmente, obtuvimos un valor de referencia para el semiperíodo de:
+
+\begin{equation}
+    T_{1/2} = 1.6847 \pm 0.0019 \; s
+\end{equation}
+
+Aplicando las Ec.\ref{Calculo MI figuras} y \ref{Inc MI figuras} obtenemos el siguiente valor del momento de inercia con su incertidumbre:
+
+\begin{equation}
+    I = 0.00534 \pm 0.00050 \; kg \cdot m^2
+\end{equation}
+
+En el caso de $d=9 \; cm$ aplicaremos el mismo tratamiento estadístico. En este conjunto de datos no tuvimos que descartar ningún dato, todos entraban dentro del intervalo de confianza. Por tanto, el valor final del semiperíodo con su incertidumbre es:
+
+\begin{equation}
+    T_{1/2} = 1.9383 \pm 0.0040 \; s
+\end{equation}
+
+Aplicando las Ec.\ref{Calculo MI figuras} y \ref{Inc MI figuras} obtenemos el siguiente valor del momento de inercia con su incertidumbre:
+
+\begin{equation}
+    I = 0.00707 \pm 0.00067 \; kg \cdot m^2
+\end{equation}
+
+Por último, en el caso de $d=12 \; cm$ el tratamiento estadístico que aplicamos sobre los datos fue el mismo. Todos los datos medidos entraban dentro del intervalo de confianza después de aplicar el factor de confianza $k=2$, por lo que no tuvimos que descartar ninguno. El valor final del semiperíodo es:
+
+\begin{equation}
+    T_{1/2} = 2.4425 \pm 0.0096 \; s
+\end{equation}
+
+Aplicando las Ec.\ref{Calculo MI figuras} y \ref{Inc MI figuras} obtenemos el siguiente valor del momento de inercia con su incertidumbre:
+
+\begin{equation}
+    I = 0.0112 \pm 0.0010 \; kg \cdot m^2
+\end{equation}
+
+A partir de estos datos vamos a hacer una regresión lineal de $I$ frente a $d^2$ para verificar el teorema de Steiner $I_{ee} = I_0 + md^2$. En esta regresión el término independiente $I_0$ va a coincidir con el momento de inercia medido respecto al centro de masas, que ya medimos anteriormente obteniendo un valor de $I_D = 0.003847 \pm 4.9 \cdot 10^{-5} \; kg\cdot m^2$. Por otro lado la pendiente de la recta de regresión va a coincidir con la masa del disco, esta va a ser la forma de verificar el teorema, contrastando el valor de la masa medido de forma directa con el valor calculado a partir del ajuste por mínimos cuadrados. Los valores empleados para realizar la regresión fueron:
+
+
+
+
+
 
 
 \section{Conclusiones}

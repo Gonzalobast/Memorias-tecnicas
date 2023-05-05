@@ -8,4 +8,7 @@
 \contentsline {subsection}{\numberline {3.2}Determinación de los momentos de inercia de diferentes cuerpos}{10}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}Disco}{10}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}Cilindro}{11}{}%
-\contentsline {section}{\numberline {4}Conclusiones}{11}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Esfera}{12}{}%
+\contentsline {subsection}{\numberline {3.3}Verificación del teorema de Steiner}{13}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Disco perforado}{13}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{16}{}%
