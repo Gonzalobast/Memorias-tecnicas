@@ -193,6 +193,7 @@ class Steiner:
         MI = inercia(D,semiT[3])
         IncMI = IncInercia(D,semiT[3],IncD)
         print(f'Momento de inercia: {MI} y su incertidumbre{IncMI}')
+        return MI
 
 
 
@@ -202,18 +203,15 @@ d1 = 3 # cm
 
 Datosd1 = np.array([1.475,1.477,1.479,1.481,1.479,1.481,1.485,1.481,1.484,1.479,1.483,1.486,1.486,1.487,1.484])  #Semiperiodo del disco con d = 3cm
 
-"""print('Datos para d =3cm')
-incertidumbresDisco3 = VariasMedidas(Datosd1)
-
-InerciaDisco3 = (inercia(constante[0],incertidumbresDisco3[3]),IncInercia(constante[0],incertidumbresDisco3[3],constante[1]))
-print(f'Momento de inercia del disco para d=3: {InerciaDisco3}')"""
+SteinerD1= Steiner(Datosd1,d1)
+MID1 = SteinerD1.MI()
 
 d2 = 6
 
 Datosd2 = np.array([1.685,1.687,1.691,1.692,1.692,1.659,1.680,1.678,1.679,1.684,1.688,1.693,1.686,1.679,1.672])
 
 SteinerD2 = Steiner(Datosd2,d2)
-#SteinerD2.MI()
+MID2 = SteinerD2.MI()
 
 
 
@@ -223,14 +221,60 @@ d3 = 9
 Datosd3 = np.array([1.928,1.954,1.925,1.956,1.958,1.948,1.937,1.910,1.916,1.917,1.940,1.954,1.943,1.942,1.946])
 
 SteinerD3 = Steiner(Datosd3,d3)
-#SteinerD3.MI()
+MID3 = SteinerD3.MI()
 
 d4 = 12
 
 Datosd4 = np.array([2.396,2.414,2.401,2.463,2.376,2.395,2.436,2.463,2.439,2.444,2.470,2.493,2.474,2.491,2.483])
 
 SteinerD4 = Steiner(Datosd4,d4)
-SteinerD4.MI()
+MID4 = SteinerD4.MI()
+
+MomentosDisco = np.array([MID1,MID2,MID3,MID4])
+Dcuadrado = np.square(np.array([d1,d2,d3,d4])/100)
+
+def regresionSimple(x,y):
+    """Axusta os datos dos vectore x e y a unha resta dada pola ec. y=a + bx
+    Parametros:
+    x vector con medidas da magnitud x
+    y vector con medidas da magnitud y
+    Devolve:
+    a coeficiente a
+    b coeficiente b
+    sa incerteza de a
+    sb incerteza de b
+    r coeficiente de regresion lineal """
+    n=len(x)
+    sx=np.sum(x); sy=np.sum(y); xx=np.dot(x,x); yy=np.dot(y,y); xy=np.dot(x,y)
+    denom=(n*xx - sx**2)
+    b=(n*xy - sx*sy)/denom
+    a=(xx*sy - sx*xy)/denom
+    s=sqrt(sum((y-a-b*x)**2)/(n-2))
+    sa=s*sqrt(xx/(n*xx-sx**2))
+    sb=s*sqrt(n/(n*xx-sx**2))
+    r=(n*xy-sx*sy)/sqrt((n*xx-sx**2)*(n*yy-sy**2))
+    return [a,b, sa, sb, r, s]
+
+regSteiner1 = regresionSimple(Dcuadrado,MomentosDisco)
+
+print(regSteiner1)
+
+def recta(a,b):
+    x = np.linspace(0,0.015,1000)
+    y = a + b*x
+    return [x,y]
+
+recta1 = recta(regSteiner1[0],regSteiner1[1])
+
+plot(Dcuadrado,MomentosDisco,'o',color='royalblue',label='Datos experimentales')
+plot(recta1[0],recta1[1],'--',color='navy',label='Recta de regresión')
+xlabel('d\u00B2 (m\u00B2)')
+ylabel('I (kg·m\u00B2)')
+grid(True)
+legend(loc='lower right')
+
+show()
+
 
 # Barra
 
@@ -251,14 +295,14 @@ semiT10 = np.array([])
 
 
 
-semiTCM = np.array([1.595,1.596,1.595,1.600,1.595,1.596,1.561,])
+semiTCM = np.array([1.595,1.596,1.595,1.600,1.595,1.596,1.561])
 semiT1 = np.array([1.606,1.606,1.606,1.607])
 semiT2 = np.array([1.625,1.633,1.627,1.629,1.632])
 semiT3 = np.array([1.649,1.643,1.648,1.651,1.646,1.661])
 semiT4 = np.array([1.689,1.686,1.677,1.685,1.671])
-semiT5 = np.array([1.681,1,688,1.1681,1.682,1.680])
+semiT5 = np.array([1.681,1.688,1.681,1.682,1.680])
 semiT6 = np.array([1.697,1.710,1.703,1.700,1.703])
 semiT7 = np.array([1.738,1.732,1.738,1.732,1.729,1.724])
 semiT8= np.array([1.772,1.785,1.782,1.781,1.777])
 semiT9 = np.array([1.826,1.829,1.833,1.831,1.825])
-semiT10 = np.array([1.866,1.871,1.876,1.879,.870])
+semiT10 = np.array([1.866,1.871,1.876,1.879,1.870])

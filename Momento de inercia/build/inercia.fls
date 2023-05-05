@@ -357,6 +357,11 @@ INPUT ./Images/Material MI 2.jpeg
 INPUT Images/Material MI 2.jpeg
 INPUT ./Images/Material MI 2.jpeg
 INPUT ./Images/Material MI 2.jpeg
+INPUT ./Images/regSteiner1.png
+INPUT ./Images/regSteiner1.png
+INPUT Images/regSteiner1.png
+INPUT ./Images/regSteiner1.png
+INPUT ./Images/regSteiner1.png
 INPUT build/inercia.aux
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
