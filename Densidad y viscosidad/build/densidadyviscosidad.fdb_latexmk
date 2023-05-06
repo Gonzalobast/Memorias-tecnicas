@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1683392258 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Densidad y viscosidad/densidadyviscosidad.tex" "build/densidadyviscosidad.pdf" "densidadyviscosidad" 1683392260 0
-  "build/densidadyviscosidad.aux" 1683392260 4255 6f6b4f62a52bb90f08f2af1f92cbcd6a "pdflatex"
-  "build/densidadyviscosidad.toc" 1683392260 1129 5de30c56b8ee525f3a175e7fa5cb35ea "pdflatex"
-  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Densidad y viscosidad/densidadyviscosidad.tex" 1683392257 34786 bb7a8287e40e8a3c6a89ab48e412f8c5 ""
+["pdflatex"] 1683392410 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Densidad y viscosidad/densidadyviscosidad.tex" "build/densidadyviscosidad.pdf" "densidadyviscosidad" 1683392413 0
+  "build/densidadyviscosidad.aux" 1683392412 4255 6f6b4f62a52bb90f08f2af1f92cbcd6a "pdflatex"
+  "build/densidadyviscosidad.toc" 1683392412 1129 5de30c56b8ee525f3a175e7fa5cb35ea "pdflatex"
+  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Densidad y viscosidad/densidadyviscosidad.tex" 1683392408 34858 f596e21e17ec047aa0087ddf83555ff9 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1679153495 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1679143990 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1679143990 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -73,7 +73,7 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1679170740 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1679170869 7883444 31504c5b761f71e4bd43423edb7760cb ""
   "c:/texlive/2022/texmf.cnf" 1679170706 713 e69b156964470283e0530f5060668171 ""
-  "densidadyviscosidad.tex" 1683392257 34786 bb7a8287e40e8a3c6a89ab48e412f8c5 ""
+  "densidadyviscosidad.tex" 1683392408 34858 f596e21e17ec047aa0087ddf83555ff9 ""
   "imágenes/picnometriaSolido.jpg" 1679238552 15696 edc23d3493bafad6494cd2f8af81d48b ""
   "imágenes/picnometro.jpg" 1679144502 11943 32eddf06417c2440aacdd3f00e719fe2 ""
   "imágenes/viscosimetro.png" 1679144431 6167 da5a2eed70dc6e0c305278c146f2ad01 ""
