@@ -162,6 +162,7 @@ Donde $\eta_{20}$ es la viscosidad dinámica del agua a $20^{\circ}C$, que se to
 
 \begin{equation}
     k = \frac{\eta}{\rho \cdot t}
+    \label{Coef Viscosimetro}
 \end{equation}
 
 Una vez determinada la constante del viscosímetro podemos proceder con rigor a determinar los diferentes coeficientes de viscosidad de los dos líquidos a estudiar: acetona y alcohol.
@@ -525,15 +526,193 @@ Como se explicó en el apartado anterior, una vez conocida la viscosidad dinámi
     \label{Tiempos agua}
     \end{table}
 
+    A continuación, vamos a aplicar ciertas técnicas estadísticas para calcular la media del tiempo con su incertidumbre. En primer lugar debemos calcular la media y la desviación típica de la muestra:
+
+    \begin{equation}
+        \begin{gathered}
+            \overline{T} = 154.36 \; s \\
+            s_A (T) = 0.75 \; s
+        \end{gathered}
+    \end{equation}
+    
+    Ahora construiremos nuestro intervalo de confianza aplicando el factor de cobertura $k=2$. En este caso obtuvimos el intervalo $[152,86\; s;155,86\; s]$. Este intervalo deja fuera al dato $T=156,20 \; s$, por lo que deberemos calcular otra vez la media y la desviación típica de la muestra:
+    
+    \begin{equation}
+        \begin{gathered}
+            \overline{T} = 154.16 \; s \\
+            s_A (T) = 0.46 \; s
+        \end{gathered}
+    \end{equation}
+    
+    A partir de estos valores calcularemos la desviación típica de la media y la incertidumbre combinada, con la que expresaremos el resultado:
+    
+    \begin{equation}
+        \begin{gathered}
+            s_A(\overline{T}) = 0.15 \; s \\
+            s_C(\overline{T}) = 0.29 \; s
+        \end{gathered}
+    \end{equation}
+    
+Por tanto el valor de referencia que usaremos para el tiempo de caída fue de:
+    
+\begin{equation}
+    T = 154.16 \pm 0.29 \; s
+\end{equation}
+
+A continuación calcularemos el valor de la constante del viscosímetro con su incertidumbre aplicando la Ec.\ref{Coef Viscosimetro}:
+
+\begin{equation}
+    k = 6.522 \cdot 10^{-5 }\pm 3.7 \cdot 10^{-7} \; \frac{poise\cdot cm^3}{g\cdot s}
+\end{equation}
+
+La incertidumbre la calculamos a partir de propagación de incertidumbres, como se detallará a continuación. Para el cálculo de esta incertidumbre supusimos una densidad del agua constante con un valor de $1 \; g\cdot cm^{-3}$:
+
+\begin{equation}
+    \begin{gathered}
+        s(k) = \sqrt{\left (\frac{\partial k}{\partial \eta }\right )^2 s^2(\eta) + \left (\frac{\partial k}{\partial t}\right )^2s^2(t)} = \sqrt{\left (\frac{1}{t}\right )^2s^2(\eta) + \left (\frac{-\eta}{t^2}\right )^2s^2(t)} \\ s(k) = 3.7 \cdot 10^{-7} \; \frac{poise\cdot cm^3}{g\cdot s}
+    \end{gathered}
+\end{equation}
 
 \subsubsection{Viscosidad de la acetona}
 
-A continuación, vamos a aplicar ciertas técnicas estadísticas para calcular la media del tiempo con su incertidumbre. En primer lugar debemos calcular 
+El procedimiento para determinar la viscosidad de la acetona va a ser similar al empleado en el apartado anterior, solo que ahora una vez conocida la constante del viscosímetro aplicaremos la Ec.\ref{Viscosidad 1} para calcular la viscosidad dinámica de la acetona.
 
+\par En primer lugar necesitamos un valor de referencia para el tiempo de flujo, que obtendremos de aplicar el mismo tratamiento estadístico realizado anteriormente a los valores del tiempo de flujo medidos en el laboratorio, reflejados en la siguiente tabla:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    Medida   & $T \; (s)$ \\ \hline
+    1  & 69,51 \\ \hline
+    2  & 69,99 \\ \hline
+    3  & 69,58 \\ \hline
+    4  & 69,8  \\ \hline
+    5  & 69,85 \\ \hline
+    6  & 69,73 \\ \hline
+    7  & 69,84 \\ \hline
+    8  & 69,67 \\ \hline
+    9  & 69,59 \\ \hline
+    10 & 69,8  \\ \hline
+    \end{tabular}
+    \caption{Medidas del tiempo de flujo de la acetona}
+    \label{T acetona}
+\end{table}
+
+La incertidumbre de estos valores vendrá dada por el tiempo medio de reacción de un humano ante un estímulo visual, igual que en el apartado anterior:
+
+\begin{equation}
+    s(T) = 0,25 \; s
+\end{equation}
+
+En primer lugar debemos calcular la media y la desviación típica de la muestra:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T} = 69.74 \;s\\
+        s_A(T) = 0.14 \;s
+    \end{gathered}
+\end{equation}
+
+El siguiente paso es aplicar el factor de cobertura $k=2$ para obtener nuestro intervalo de confianza, en este caso $[69,46\; s;70,02\; s]$. Todos los datos medidos entran dentro del intervalo de confianza por lo que no hay que descartar ninguno. La desviación típica de la media y la incertidumbre combinada tienen los siguientes valores:
+
+\begin{equation}
+    \begin{gathered}
+        s_A(\overline{T}) = 0.044 \; s \\
+        s_C(\overline{T}) = 0.25 \; s
+    \end{gathered}
+\end{equation}
+
+Por tanto el valor final del tiempo de flujo con su incertidumbre es:
+
+\begin{equation}
+    T_{ac} = 69.74 \pm 0.25 \; s
+\end{equation}
+
+Finalmente, aplicando la Ec.\ref{Viscosidad 1} podemos calcular la viscosidad dinámica de la acetona:
+
+\begin{equation}
+    \eta_{ac} = 0.003626 \; poise
+\end{equation}
+
+La incertidumbre de la viscosidad dinámica la calcularemos aplicando propagación de incertidumbres a la Ec.\ref{Viscosidad 1}:
+
+\begin{equation}
+    \begin{gathered}
+    s\left(\eta_{ac}\right) =\sqrt{\left(\frac{\partial \eta_{ac}}{\partial k}\right)^2 s^2(k)+\left(\frac{\partial \eta_{a c}}{\partial \rho_{a c}}\right)^2 s^2\left(\rho_{ac}\right)+\left(\frac{\partial \eta_{ac}}{\partial T_{ac}}\right)^2 s^2\left(T_{a c}\right)} \\
+    s\left(\eta_{a c}\right)  =\sqrt{\left(\rho_{a c} \cdot T_{a c}\right)^2 s^2(k)+\left(k \cdot T_{a c}\right)^2 s^2\left(\rho_{a c}\right)+\left(\rho_{a c} \cdot k\right)^2 s^2\left(T_{a c}\right)} \\
+    s(\eta_{ac}) = 2,5 \cdot 10^{-5} \; poise
+    \end{gathered}
+    \label{Inc visc}
+\end{equation}
+
+Por tanto, el valor final de la viscosidad de la acetona es:
+
+\begin{equation}
+    \eta_{ac} = 0.003626 \pm 2,5 \cdot 10^{-5} \; poise
+\end{equation}
 
 
 \subsubsection{Viscosidad del alcohol}
 
+El procedimiento con el alcohol va a ser análogo al realizado con la acetona. Los datos del tiempo de flujo medidos figurarán en la siguiente tabla:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    Medida  & $T \;(s)$ \\ \hline
+    1 & 312,88 \\ \hline
+    2 & 315,22 \\ \hline
+    3 & 314,57 \\ \hline
+    4 & 314,47 \\ \hline
+    5 & 315,96 \\ \hline
+    6 & 315,74 \\ \hline
+    7 & 313,51 \\ \hline
+    \end{tabular}
+    \caption{Datos del tiempo de flujo del alcohol}
+    \label{T alcohol}
+    \end{table}
+
+Cabe destacar que para el tiempo de flujo del alcohol solo contamos con 7 medidas, pues no pudimos realizar las diez por falta de tiempo, como mencionamos anteriormente.
+
+\par La incertidumbre de estos valores vendrá dada por el tiempo medio de reacción de un humano ante un estímulo visual, igual que en el apartado anterior:
+
+\begin{equation}
+    s(T) = 0,25 \; s
+\end{equation}    
+
+Para determinar un valor de referencia del tiempo de flujo vamos a aplicar el mismo tratamiento estadístico que anteriormente. La media y la desviación típica de la muestra son:
+
+\begin{equation}
+    \begin{gathered}
+        \overline{T} = 314.6\; s\\
+        s_A(T) =  1.0 \; s
+    \end{gathered}
+\end{equation}
+
+Aplicando el factor de cobertura $k=2$ obtenemos un intervalo de confianza de $[312,6 \;s;316,6\; s]$, dentro del que se encuentran todos los datos medidos. Por tanto no tenemos que descartar ningún dato y podemos proceder a calcular la desviación típica de la media y la incertidumbre combinada:
+
+\begin{equation}
+    \begin{gathered}
+        s_A(\overline{T}) = 0.40 \; s \\
+        s_C(\overline{T}) = 0.47 \; s
+    \end{gathered}
+\end{equation}
+
+Por tanto, el valor de referencia del tiempo de flujo para el alcohol es:
+
+\begin{equation}
+    T = 314.6 \pm 0.47 \; s
+\end{equation}
+
+Aplicando las Ec.\ref{Viscosidad 1} y Ec.\ref{Inc visc} (Sustituyendo los valores relativos al alcohol) obtenemos el siguiente valor para la viscosidad dinámica del alcohol y su incertidumbre:
+
+\begin{equation}
+    \eta_{al} =  0.01695 \pm 0.00010 \; poise
+\end{equation}
+
+El valor teórico de la viscosidad del alcohol es de $0,012 \; poise$ 
 
 \section{Conclusión}
 

@@ -11,6 +11,6 @@
 \contentsline {subsubsection}{\numberline {3.1.4}Densidad de un sólido: El plomo}{13}{}%
 \contentsline {subsection}{\numberline {3.2}Viscosidad}{15}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}Cálculo de la constante del viscosímetro}{15}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Viscosidad de la acetona}{16}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Viscosidad del alcohol}{16}{}%
-\contentsline {section}{\numberline {4}Conclusión}{16}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Viscosidad de la acetona}{17}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Viscosidad del alcohol}{18}{}%
+\contentsline {section}{\numberline {4}Conclusión}{19}{}%

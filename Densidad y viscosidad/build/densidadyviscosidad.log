@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  4 APR 2023 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  6 MAY 2023 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -360,12 +360,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Overfull \hbox (1.40514pt too wide) in paragraph at lines 180--181
+Overfull \hbox (1.40514pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/12 cal-cu-lar el vo-lu-men del picn^^Some-tro a par-tir de la Ec.1[]. La ma-sa del picn^^Some-tro
  []
 
 
-Overfull \hbox (4.7037pt too wide) in paragraph at lines 227--228
+Overfull \hbox (4.7037pt too wide) in paragraph at lines 228--229
 \OT1/cmr/m/n/12 los va-lo-res dis-cor-dan-tes y te-ner da-tos con m^^Sas pre-ci-si^^Son. Los in-ter-va-los vendr^^San
  []
 
@@ -377,12 +377,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Overfull \hbox (0.90984pt too wide) in paragraph at lines 255--256
+Overfull \hbox (0.90984pt too wide) in paragraph at lines 256--257
 []\OT1/cmr/m/n/12 Para cal-cu-lar la in-cer-ti-dum-bre del vo-lu-men del picn^^Some-tro va-mos a apli-car
  []
 
 
-Overfull \hbox (11.18889pt too wide) in paragraph at lines 272--273
+Overfull \hbox (11.18889pt too wide) in paragraph at lines 273--274
 []\OT1/cmr/m/n/12 Una vez co-no-ci-do el vo-lu-men del picn^^Some-tro po-de-mos pro-ce-der a de-ter-mi-nar
  []
 
@@ -402,12 +402,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-Overfull \hbox (13.21248pt too wide) in paragraph at lines 320--321
+Overfull \hbox (13.21248pt too wide) in paragraph at lines 321--322
 []\OT1/cmr/m/n/12 Aplicando pro-pa-ga-ci^^Son de in-cer-ti-dum-bres po-de-mos cal-cu-lar la in-cer-ti-dum-bre
  []
 
 
-Overfull \hbox (40.26836pt too wide) detected at line 327
+Overfull \hbox (40.26836pt too wide) detected at line 328
 []
  []
 
@@ -427,7 +427,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-Overfull \hbox (24.28683pt too wide) in paragraph at lines 396--397
+Overfull \hbox (24.28683pt too wide) in paragraph at lines 397--398
 \OT1/cmr/m/n/12 pr^^Soxi-mo al ex-pe-ri-men-tal pe-ro se sa-le del ran-go de in-cer-ti-dum-bre. Es-ta dis-cor-dan-cia
  []
 
@@ -439,12 +439,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-Overfull \hbox (10.37502pt too wide) in paragraph at lines 431--432
+Overfull \hbox (10.37502pt too wide) in paragraph at lines 432--433
 []\OT1/cmr/m/n/12 El tra-ta-mien-to es-tad^^S^^Psti-co a rea-li-zar es el mis-mo que en apar-ta-dos an-te-rio-res: 
  []
 
 
-Overfull \hbox (40.66351pt too wide) in paragraph at lines 438--439
+Overfull \hbox (40.66351pt too wide) in paragraph at lines 439--440
 []\OT1/cmr/m/n/12 Aplicando el fac-tor de co-ber-tu-ra $\OML/cmm/m/it/12 k \OT1/cmr/m/n/12 = 2$ ob-te-ne-mos el in-ter-va-lo $[54\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 376 \OML/cmm/m/it/12 g\OT1/cmr/m/n/12 ; 54\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 524 \OML/cmm/m/it/12 g\OT1/cmr/m/n/12 ]$,
  []
 
@@ -456,7 +456,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-Overfull \hbox (51.99644pt too wide) detected at line 466
+Overfull \hbox (51.99644pt too wide) detected at line 467
 []
  []
 
@@ -476,6 +476,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
+Overfull \hbox (0.64873pt too wide) in paragraph at lines 568--569
+[]\OT1/cmr/m/n/12 La in-cer-ti-dum-bre la cal-cu-la-mos a par-tir de pro-pa-ga-ci^^Son de in-cer-ti-dum-bres,
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -483,23 +487,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16] (build/densidadyviscosidad.aux
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+Overfull \hbox (4.13339pt too wide) in paragraph at lines 694--695
+[]\OT1/cmr/m/n/12 Aplicando el fac-tor de co-ber-tu-ra $\OML/cmm/m/it/12 k \OT1/cmr/m/n/12 = 2$ ob-te-ne-mos un in-ter-va-lo de con-fian-za
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19] (build/densidadyviscosidad.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 5757 strings out of 476024
- 94804 string characters out of 5794016
+ 5761 strings out of 476024
+ 94855 string characters out of 5794016
  1865382 words of memory out of 5000000
- 26156 multiletter control sequences out of 15000+600000
+ 26160 multiletter control sequences out of 15000+600000
  521397 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,63p,870b,408s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on build/densidadyviscosidad.pdf (17 pages, 207410 bytes).
+Output written on build/densidadyviscosidad.pdf (20 pages, 215712 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
