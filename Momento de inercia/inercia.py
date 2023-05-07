@@ -1,6 +1,7 @@
 import numpy as np
 from matplotlib.pyplot import *
 from math import *
+import pandas as pd
 
 
 def regresionSimpleSenTermoIndependente(x,y):
@@ -80,7 +81,7 @@ print(len(disco))
 def VariasMedidas(x):   
     k = 2 #Factor de cobertura
     
-    sb = float(input('Introduce la incertidumbre de tipo B: '))
+    sb = 0.001
     
     media1 = np.mean(x)
     desviacion1 = np.std(x)
@@ -98,6 +99,9 @@ def VariasMedidas(x):
             datos.append(x[i])  #Lista con los datos filtrados
         else:
             excluidos.append(x[i])  #Lista con los datos excluidos
+    
+    if len(datos) == len(x):
+        excluidos.append(0)
             
     media2 = np.mean(datos)    #Nuevo valor de la media
     
@@ -116,7 +120,11 @@ def VariasMedidas(x):
     print(f'sa de la media {sa}')
     print(f'sc de la muestra: {sc}')
     
-    return (sa,sb,sc,media2,excluidos,datos,media1,desviacion1)
+    return [sa,sb,sc,media2,excluidos,datos,media1,desviacion1,np.std(datos)]
+
+def datostabla(x): # Cogemos los datos que nos interesan para la tabla
+    datos = np.array([x[0],x[1],x[2],x[3],x[6],x[7],x[8]])
+    return datos
 
 #incertidumbresDisco = VariasMedidas(disco)
 
@@ -193,13 +201,14 @@ class Steiner:
         MI = inercia(D,semiT[3])
         IncMI = IncInercia(D,semiT[3],IncD)
         print(f'Momento de inercia: {MI} y su incertidumbre{IncMI}')
-        return MI
+        tabla = datostabla(semiT)
+        return tabla
 
 
 
 #Disco con las diferentes posiciones
 
-d1 = 3 # cm
+"""d1 = 3 # cm
 
 Datosd1 = np.array([1.475,1.477,1.479,1.481,1.479,1.481,1.485,1.481,1.484,1.479,1.483,1.486,1.486,1.487,1.484])  #Semiperiodo del disco con d = 3cm
 
@@ -231,7 +240,7 @@ SteinerD4 = Steiner(Datosd4,d4)
 MID4 = SteinerD4.MI()
 
 MomentosDisco = np.array([MID1,MID2,MID3,MID4])
-Dcuadrado = np.square(np.array([d1,d2,d3,d4])/100)
+Dcuadrado = np.square(np.array([d1,d2,d3,d4])/100)"""
 
 def regresionSimple(x,y):
     """Axusta os datos dos vectore x e y a unha resta dada pola ec. y=a + bx
@@ -255,7 +264,7 @@ def regresionSimple(x,y):
     r=(n*xy-sx*sy)/sqrt((n*xx-sx**2)*(n*yy-sy**2))
     return [a,b, sa, sb, r, s]
 
-regSteiner1 = regresionSimple(Dcuadrado,MomentosDisco)
+"""regSteiner1 = regresionSimple(Dcuadrado,MomentosDisco)
 
 print(regSteiner1)
 
@@ -273,7 +282,7 @@ ylabel('I (kg·m\u00B2)')
 grid(True)
 legend(loc='lower right')
 
-show()
+show()"""
 
 
 # Barra
@@ -281,19 +290,6 @@ show()
 #Datos del centro de masas
 #cada distancia varía en un cm
 longitudbarra=0.657
-semiTCM = np.array([1.565,1.630,1.627,1.635,1.636,1.636,1.634,1.633,1.635,1.638,1.632,1.633,1.632,1.634,1.638])
-semiT1 = np.array([1.628,1.630,1.627,1.635,1.636,1.636,1.634,1.633,1.635,1.638,1.632,1.633,1.632,1.634,1.638])
-semiT2 = np.array([1.670,1.671,1.673,1.680,1.676,1.673,1.669,1.676,1.677,1.687,1.691,1.701,1.684,1.683,1.675])
-semiT3 = np.array([1.777,1.763,1.755,1.756,1.775,1.778,1.801,1.793,1.800,1.794,1.800,1.790,1.807,1.803,1.791])
-semiT4 = np.array([1.824,1.849,1.824,1.825,1.834,1.836,1.857,1.876,1.882,1.868,1.836,1.835,1.889,1.891,1.876])
-semiT5 = np.array([])
-semiT6 = np.array([])
-semiT7 = np.array([])
-semiT8= np.array([])
-semiT9 = np.array([])
-semiT10 = np.array([])
-
-
 
 semiTCM = np.array([1.595,1.596,1.595,1.600,1.595,1.596,1.561])
 semiT1 = np.array([1.606,1.606,1.606,1.607])
@@ -306,3 +302,34 @@ semiT7 = np.array([1.738,1.732,1.738,1.732,1.729,1.724])
 semiT8= np.array([1.772,1.785,1.782,1.781,1.777])
 semiT9 = np.array([1.826,1.829,1.833,1.831,1.825])
 semiT10 = np.array([1.866,1.871,1.876,1.879,1.870])
+
+
+## Steiner barra
+
+Barra0 = Steiner(semiTCM,0)
+Barra1 = Steiner(semiT1,1)
+Barra2 = Steiner(semiT2,2)
+Barra3 = Steiner(semiT3,3)
+Barra4 = Steiner(semiT4,4)
+Barra5 = Steiner(semiT5,5)
+Barra6 = Steiner(semiT6,6)
+Barra7 = Steiner(semiT7,7)
+Barra8 = Steiner(semiT8,8)
+Barra9 = Steiner(semiT9,9)
+Barra10 = Steiner(semiT10,10)
+
+MIbarra0 = Barra0.MI()
+MIbarra1 = Barra1.MI()
+MIbarra2 = Barra2.MI()
+MIbarra3 = Barra3.MI()
+MIbarra4 = Barra4.MI()
+MIbarra5 = Barra5.MI()
+MIbarra6 = Barra6.MI()
+MIbarra7 = Barra7.MI()
+MIbarra8 = Barra8.MI()
+MIbarra9 = Barra9.MI()
+MIbarra10 = Barra10.MI()
+
+datosBarra = np.array([MIbarra0,MIbarra1,MIbarra2,MIbarra3,MIbarra4,MIbarra5,MIbarra6,MIbarra7,MIbarra8,MIbarra9,MIbarra10])
+
+pd.DataFrame(datosBarra).to_csv('datosbarra.csv')

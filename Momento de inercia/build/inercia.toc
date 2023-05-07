@@ -12,4 +12,4 @@
 \contentsline {subsection}{\numberline {3.3}Verificación del teorema de Steiner}{13}{}%
 \contentsline {subsubsection}{\numberline {3.3.1}Disco perforado}{13}{}%
 \contentsline {subsubsection}{\numberline {3.3.2}Barra rígida}{18}{}%
-\contentsline {section}{\numberline {4}Conclusiones}{18}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{19}{}%
