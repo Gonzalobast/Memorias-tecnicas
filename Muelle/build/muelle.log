@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  1 MAY 2023 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  9 MAY 2023 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -301,15 +301,6 @@ File: Images/caidalibre.png Graphic file (type png)
 Package pdftex.def Info: Images/caidalibre.png  used on input line 117.
 (pdftex.def)             Requested size: 195.0pt x 190.94205pt.
 
-Overfull \hbox (8.5212pt too wide) in paragraph at lines 130--130
-[]\OT1/cmr/bx/n/14.4 Determinaci^^Son de la cons-tan-te el^^Sasti-ca de un mue-lle 
- []
-
-
-Overfull \hbox (0.22781pt too wide) in paragraph at lines 132--133
-\OT1/cmr/m/n/12 el^^Sasti-ca de nues-tro mue-lle me-dian-te los dos m^^Seto-dos an-tes des-cri-tos, el m^^Seto-do
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -318,48 +309,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./Images/caidalibre.png>]
-Overfull \hbox (5.15416pt too wide) in paragraph at lines 138--139
+Overfull \hbox (8.5212pt too wide) in paragraph at lines 132--132
+[]\OT1/cmr/bx/n/14.4 Determinaci^^Son de la cons-tan-te el^^Sasti-ca de un mue-lle 
+ []
+
+
+Overfull \hbox (0.22781pt too wide) in paragraph at lines 134--135
+\OT1/cmr/m/n/12 el^^Sasti-ca de nues-tro mue-lle me-dian-te los dos m^^Seto-dos an-tes des-cri-tos, el m^^Seto-do
+ []
+
+
+Overfull \hbox (5.15416pt too wide) in paragraph at lines 140--141
 []\OT1/cmr/m/n/12 Regla ver-ti-cal pa-ra me-dir la de-for-ma-ci^^Son, em-plea-da en el m^^Seto-do est^^Sati-co 
  []
 
 <Images/Ley de hooke.jpg, id=35, 1204.5pt x 1204.5pt>
 File: Images/Ley de hooke.jpg Graphic file (type jpg)
 <use Images/Ley de hooke.jpg>
-Package pdftex.def Info: Images/Ley de hooke.jpg  used on input line 144.
+Package pdftex.def Info: Images/Ley de hooke.jpg  used on input line 146.
 (pdftex.def)             Requested size: 148.19725pt x 148.19121pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 149--151
+Underfull \hbox (badness 1502) in paragraph at lines 151--153
 \OT1/cmr/m/n/12 de la cons-tan-te el^^Sasti-ca por el m^^Seto-do
  []
 
 
-Overfull \hbox (26.40189pt too wide) in paragraph at lines 149--151
+Overfull \hbox (26.40189pt too wide) in paragraph at lines 151--153
 \OT1/cmr/m/n/12 est^^Sati-co, adop-tan-do la con-fi-gu-ra-ci^^Son ex-pe-ri-men-tal
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 149--151
+Underfull \hbox (badness 4543) in paragraph at lines 151--153
 \OT1/cmr/m/n/12 que se pue-de ver en la Fig.3[]. Pa-ra
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 149--151
+Underfull \hbox (badness 1735) in paragraph at lines 151--153
 \OT1/cmr/m/n/12 una re-gre-si^^Son li-neal sim-ple sin t^^Sermino
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 149--151
+Underfull \hbox (badness 5607) in paragraph at lines 151--153
 \OT1/cmr/m/n/12 cua-dra-dos, re-pre-sen-tan-do la fuer-za en
- []
-
-
-Overfull \hbox (27.74652pt too wide) in paragraph at lines 153--154
-\OT1/cmr/m/n/12 di-rec-ta du-ran-te la pr^^Sacti-ca. Es-ta in-cer-ti-dum-bre est^^Sa di-rec-ta-men-te re-la-cio-na-da
- []
-
-
-Overfull \hbox (21.21101pt too wide) in paragraph at lines 158--159
-[]\OT1/cmr/m/n/12 La in-cer-ti-dum-bre de la de-for-ma-ci^^Son vie-ne da-da por la pre-ci-si^^Son ins-tru-men-tal
  []
 
 
@@ -370,7 +361,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./Images/Ley de hooke.jpg>]
-Overfull \hbox (24.07092pt too wide) detected at line 169
+Overfull \hbox (27.74652pt too wide) in paragraph at lines 157--158
+\OT1/cmr/m/n/12 di-rec-ta du-ran-te la pr^^Sacti-ca. Es-ta in-cer-ti-dum-bre est^^Sa di-rec-ta-men-te re-la-cio-na-da
+ []
+
+
+Overfull \hbox (21.21101pt too wide) in paragraph at lines 162--163
+[]\OT1/cmr/m/n/12 La in-cer-ti-dum-bre de la de-for-ma-ci^^Son vie-ne da-da por la pre-ci-si^^Son ins-tru-men-tal
+ []
+
+
+Overfull \hbox (24.07092pt too wide) detected at line 173
 []\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 (^^A\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = [] = [] = 2[] = 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 8 \OML/cmm/m/it/12 mm
  []
 
@@ -382,28 +383,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Overfull \hbox (22.73459pt too wide) in paragraph at lines 196--196
+Overfull \hbox (22.73459pt too wide) in paragraph at lines 200--200
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son de den-si-da-des de di-fe-ren-tes ma-te-ria-les 
- []
-
-<Images/hooke+arquimedes.jpg, id=43, 289.83281pt x 289.83281pt>
-File: Images/hooke+arquimedes.jpg Graphic file (type jpg)
-<use Images/hooke+arquimedes.jpg>
-Package pdftex.def Info: Images/hooke+arquimedes.jpg  used on input line 211.
-(pdftex.def)             Requested size: 148.19725pt x 148.19753pt.
-
-Underfull \hbox (badness 1728) in paragraph at lines 216--217
-\OT1/cmr/m/n/12 ob-je-ti-vo fun-da-men-tal ser^^Sa cuan-ti-fi-car el
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 216--217
-\OT1/cmr/m/n/12 efec-to del em-pu-je del l^^S^^Pqui-do en la
- []
-
-
-Underfull \hbox (badness 6236) in paragraph at lines 216--217
-\OT1/cmr/m/n/12 de-for-ma-ci^^Son, que ser^^Sa me-nor que en
  []
 
 
@@ -413,33 +394,56 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7 <./Images/hooke+arquimedes.jpg>]
-Overfull \hbox (36.87335pt too wide) in paragraph at lines 219--220
+[7]
+<Images/hooke+arquimedes.jpg, id=46, 289.83281pt x 289.83281pt>
+File: Images/hooke+arquimedes.jpg Graphic file (type jpg)
+<use Images/hooke+arquimedes.jpg>
+Package pdftex.def Info: Images/hooke+arquimedes.jpg  used on input line 218.
+(pdftex.def)             Requested size: 111.15077pt x 111.15034pt.
+
+Underfull \hbox (badness 1132) in paragraph at lines 223--224
+\OT1/cmr/m/n/12 cal-cu-lar la den-si-dad del ma-te-rial del que est^^Sa
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 223--224
+\OT1/cmr/m/n/12 en el apar-ta-do an-te-rior, re-fle-ja-da en la Ec.13[].
+ []
+
+
+Overfull \hbox (36.87335pt too wide) in paragraph at lines 226--227
 []\OT1/cmr/m/n/12 Aplicando pro-pa-ga-ci^^Son de in-cer-ti-dum-bres a la Ec.8[] ob-te-ne-mos la in-cer-ti-dum-bre
  []
 
 
-Overfull \hbox (36.87335pt too wide) in paragraph at lines 224--225
+Overfull \hbox (36.87335pt too wide) in paragraph at lines 231--232
 []\OT1/cmr/m/n/12 Aplicando pro-pa-ga-ci^^Son de in-cer-ti-dum-bres a la Ec.9[] ob-te-ne-mos la in-cer-ti-dum-bre
  []
 
 
-Overfull \hbox (8.68445pt too wide) detected at line 228
+Overfull \hbox (8.68445pt too wide) detected at line 235
 []\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^Z[]\OT1/cmr/m/n/12 ) = []
  []
 
 <Images/caidalibreaparato.jpg, id=47, 1938.24126pt x 2569.6pt>
 File: Images/caidalibreaparato.jpg Graphic file (type jpg)
 <use Images/caidalibreaparato.jpg>
-Package pdftex.def Info: Images/caidalibreaparato.jpg  used on input line 243.
+Package pdftex.def Info: Images/caidalibreaparato.jpg  used on input line 250.
 (pdftex.def)             Requested size: 109.19785pt x 144.75922pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 248--249
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./Images/hooke+arquimedes.jpg>]
+Underfull \hbox (badness 1097) in paragraph at lines 255--256
 \OT1/cmr/m/n/12 en que co-men-za-ba la ca^^S^^Pda se ac-ti-va-ba
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 248--249
+Underfull \hbox (badness 2626) in paragraph at lines 255--256
 \OT1/cmr/m/n/12 10 me-di-das del tiem-po de ca^^S^^Pda pa-ra
  []
 
@@ -450,16 +454,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./Images/caidalibreaparato.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-Overfull \hbox (5.93617pt too wide) in paragraph at lines 310--311
+[9 <./Images/caidalibreaparato.jpg>]
+Overfull \hbox (5.93617pt too wide) in paragraph at lines 317--318
 []\OT1/cmr/m/n/12 En la si-guien-te gr^^Safi-ca po-de-mos ver res-pre-sen-ta-dos los da-tos ex-pe-ri-men-ta-les
  []
 
@@ -474,7 +470,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Images/RegEstatico.png, id=57, 462.528pt x 346.896pt>
 File: Images/RegEstatico.png Graphic file (type png)
 <use Images/RegEstatico.png>
-Package pdftex.def Info: Images/RegEstatico.png  used on input line 316.
+Package pdftex.def Info: Images/RegEstatico.png  used on input line 323.
 (pdftex.def)             Requested size: 292.5pt x 219.38724pt.
 
 
@@ -488,7 +484,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Images/RegDinamico.png, id=62, 462.528pt x 346.896pt>
 File: Images/RegDinamico.png Graphic file (type png)
 <use Images/RegDinamico.png>
-Package pdftex.def Info: Images/RegDinamico.png  used on input line 376.
+Package pdftex.def Info: Images/RegDinamico.png  used on input line 383.
 (pdftex.def)             Requested size: 292.5pt x 219.38724pt.
 
 
@@ -502,6 +498,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
+Overfull \hbox (6.75842pt too wide) in paragraph at lines 401--408
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -510,8 +513,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./Images/RegDinamico.png>]
-Overfull \hbox (5.81125pt too wide) in paragraph at lines 407--408
+Overfull \hbox (5.81125pt too wide) in paragraph at lines 418--419
 []\OT1/cmr/m/n/12 En es-te apar-ta-do tra-ta-mos de de-ter-mi-nar la den-si-dad, \OT1/cmr/m/it/12 a prio-ri \OT1/cmr/m/n/12 des-co-no-ci-da,
+ []
+
+
+Overfull \hbox (6.78091pt too wide) in paragraph at lines 422--429
+ [][] 
  []
 
 
@@ -525,7 +533,108 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Images/RegGravedad.png, id=75, 462.528pt x 346.896pt>
 File: Images/RegGravedad.png Graphic file (type png)
 <use Images/RegGravedad.png>
-Package pdftex.def Info: Images/RegGravedad.png  used on input line 448.
+Package pdftex.def Info: Images/RegGravedad.png  used on input line 474.
+(pdftex.def)             Requested size: 292.5pt x 219.38724pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Overfull \hbox (13.255pt too wide) in paragraph at lines 502--503
+\OT1/cmr/m/n/12 rea-li-za-do el ex-pe-ri-men-to. En el m^^Seto-do din^^Sami-co ob-ser-va-mos que las os-ci-la-cio-nes
+ []
+
+
+Overfull \hbox (21.90112pt too wide) in paragraph at lines 502--503
+\OT1/cmr/m/n/12 es-ta-ban le-jos de ser per-fec-tas, pre-sen-ta-bam mu-cha irre-gu-la-ri-dad, lo que di-fi-cul-ta-ba
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./Images/RegGravedad.png>]
+Overfull \hbox (8.70967pt too wide) in paragraph at lines 504--505
+\OT1/cmr/m/n/12 de tres s^^Soli-dos y un l^^S^^Pqui-do a par-tir de la apli-ca-ci^^Son la ley de Hoo-ke, com-pa-ran-do
+ []
+
+
+Overfull \hbox (3.94444pt too wide) in paragraph at lines 534--535
+\OT1/cmr/m/n/12 su pre-ci-si^^Son, pues sal-vo el ca-so ya co-men-ta-do del cuer-po 2 (He-cho de alu-mi-nio),
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+Overfull \hbox (16.90404pt too wide) in paragraph at lines 554--555
+[]\OT1/cmr/m/n/12 En con-clu-si^^Son, pe-se a que en cier-tas me-di-das ob-tu-vi-mos un error con-si-de-ra-ble,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+Overfull \hbox (11.78055pt too wide) in paragraph at lines 560--561
+\OT1/cmr/m/n/12 li-neal sim-ple sin t^^Sermino in-de-pen-dien-te por el m^^Seto-do de los m^^S^^Pni-mos cua-dra-dos,
+ []
+
+
+Overfull \hbox (2.57648pt too wide) in paragraph at lines 560--561
+\OT1/cmr/m/n/12 an^^Sali-sis re-li-za-do pa-ra de-ter-mi-nar la cons-tan-te el^^Sasti-ca del mue-lle por el m^^Seto-do
+ []
+
+
+Overfull \hbox (25.01411pt too wide) in paragraph at lines 579--594
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Overfull \hbox (0.16254pt too wide) in paragraph at lines 607--608
+\OT1/cmr/m/n/12 muy pr^^Soxi-mo de 1, por lo que po-de-mos afir-mar que exis-te una gran co-rre-la-ci^^Son
+ []
+
+
+Overfull \hbox (10.86058pt too wide) in paragraph at lines 609--610
+\OT1/cmr/m/n/12 t^^S^^Ppi-ca y la in-cer-ti-dum-bre de la pen-dien-te de la rec-ta ($\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 )$). Pa-ra ello ne-ce-si-ta-mos
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+File: Images/RegEstatico.png Graphic file (type png)
+<use Images/RegEstatico.png>
+Package pdftex.def Info: Images/RegEstatico.png  used on input line 646.
 (pdftex.def)             Requested size: 292.5pt x 219.38724pt.
 
 
@@ -535,23 +644,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15 <./Images/RegGravedad.png>] (build/muelle.aux
+[21] (build/muelle.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 5877 strings out of 476024
- 96831 string characters out of 5794016
- 1867382 words of memory out of 5000000
- 26264 multiletter control sequences out of 15000+600000
+ 5881 strings out of 476024
+ 96893 string characters out of 5794016
+ 1868382 words of memory out of 5000000
+ 26268 multiletter control sequences out of 15000+600000
  522355 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,63p,1315b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on build/muelle.pdf (16 pages, 582639 bytes).
+ 57i,13n,63p,941b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on build/muelle.pdf (22 pages, 611566 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 160 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

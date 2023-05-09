@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción teórica}{2}{}%
-\contentsline {section}{\numberline {2}Materiales y metodología}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Determinación de la constante elástica de un muelle}{4}{}%
+\contentsline {section}{\numberline {2}Materiales y metodología}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Determinación de la constante elástica de un muelle}{5}{}%
 \contentsline {subsection}{\numberline {2.2}Determinación de densidades de diferentes materiales}{7}{}%
 \contentsline {subsection}{\numberline {2.3}Determinación del valor de la gravedad}{8}{}%
 \contentsline {section}{\numberline {3}Análisis de datos}{10}{}%
@@ -11,5 +11,6 @@
 \contentsline {subsection}{\numberline {3.2}Determinación de densidades}{13}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}Sólidos}{13}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}Líquidos}{14}{}%
-\contentsline {subsection}{\numberline {3.3}Determinaación de la gravedad}{14}{}%
-\contentsline {section}{\numberline {4}Conclusiones}{15}{}%
+\contentsline {subsection}{\numberline {3.3}Determinaación de la gravedad}{15}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{16}{}%
+\contentsline {section}{\numberline {5}Anexo: Análisis por mínimos cuadrados}{19}{}%

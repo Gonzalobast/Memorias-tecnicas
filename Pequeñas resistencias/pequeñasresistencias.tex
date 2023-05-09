@@ -8,6 +8,7 @@
 \usepackage{amssymb, amsmath}
 \usepackage{gensymb}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
 
 
 \lhead{Pequeñas resistencias}
@@ -270,7 +271,7 @@ Debemos tener en cuenta el valor del voltaje residual, que afectará a nuestra i
 
 Los datos medidos están expresados en $mV$ y quitando ya el efecto de la amplificación y del voltaje residual (Ec.\ref{Voltaje residual}, donde el valor del cero resultó ser de $14,8 \; mV$), para trabajar con las caídas de potencial reales.
 
-\par A partir de estos datos vamos a hacer una regresión lineal simple sin término independiente por el método de los mínimos cuadrados para aproximar nuestros puntos experimentales a una recta del tipo $y=bx$ usando las Ec.8, Ec.9, Ec.10 y Ec.11. La variable dependiente ($y$) será la intensidad y la variable dependiente ($x$) será el voltaje. Los datos empleados figuran en el anexo del final:
+\par A partir de estos datos vamos a hacer una regresión lineal simple sin término independiente por el método de los mínimos cuadrados para aproximar nuestros puntos experimentales a una recta del tipo $y=bx$ usando las Ec.8, Ec.9, Ec.10 y Ec.11. La variable dependiente ($y$) será la intensidad y la variable dependiente ($x$) será el voltaje. Los valores obtenidos fueron:
 
 \begin{equation}
     \begin{gathered}
@@ -337,7 +338,7 @@ Por tanto, el valor final de la resistividad del cobre es de:
     \rho_{Cu} = 1.851 \cdot 10^{-8} \pm 7.7 \cdot 10^{-10} \; \Omega \cdot m
 \end{equation}
 
-El valor real de la resistividad del cobre es de $1,68 \cdot 10^{-8} \Omega \cdot m$, que aunque no entra en el rango de incertidumbre se encuentra muy cerca del valor experimental.
+El valor real de la resistividad del cobre es de $1,678 \cdot 10^{-8} \Omega \cdot m$, que aunque no entra en el rango de incertidumbre se encuentra muy cerca del valor experimental.
 
 \subsection{Resistividad del aluminio}
 
@@ -382,7 +383,7 @@ Los valores medidos fueron los siguientes (Expresados sin amplificación):
     \caption{Datos experimentales de la barra de aluminio}
 \end{table}
 
-Los datos serán ajustados a una recta del tipo $y=bx$ por un ajuste de mínimos cuadrados igual que en apartado anterior, donde $b$ representa la resistencia. Los datos empleados para el ajuste figuran en el anexo del final:
+Los datos serán ajustados a una recta del tipo $y=bx$ por un ajuste de mínimos cuadrados igual que en apartado anterior, donde $b$ representa la resistencia. Los valores obtenidos fueron:
 
 \begin{equation}
     \begin{gathered}
@@ -404,6 +405,8 @@ Por tanto, la recta de regresión a la que vamos a aproximar nuestros puntos exp
     \includegraphics[width=0.85\linewidth]{Images/plotAluminio.png}
     \caption{Datos experimentales y recta de regresión de la barra de aluminio}
 \end{figure}
+
+\newpage
 
 Las dimensiones de la barra son las misma, tanto en radio como en distancia entre contactos, por lo que las incertidumbres se mantienen:
 
@@ -427,7 +430,9 @@ Aplicando la Ec.\ref{Resistividad} y la Ec.\ref{Inc resistividad} el valor de la
     1.0\cdot 10^{-9} \; \Omega \cdot m
 \end{equation}
 
-El valor real de la resistividad del aluminio es de $2,82 \cdot 10^{-8} \; \Omega \cdot m$, que aunque no se encuentra dentro del rango de incertidumbre, se acerca mucho al valor medido experimentalmente.
+El valor real de la resistividad del aluminio es de $2,650 \cdot 10^{-8} \; \Omega \cdot m$, por lo que nuestro resultado se ajusta en gran medida a la realidad.
+
+\newpage
 
 \subsection{Determinación de la resistencia entre contactos de la caja de conexiones}
 
@@ -437,7 +442,7 @@ Como hemos mencionado en la metodología para la determinación de la resistenci
 
 Los valores de intensidad y voltaje medidos para el segmento $U_{1}$, formado solo por el cable, son los siguientes:
 
-\begin{table}
+\begin{table}[h!]
 \centering
     \begin{tabular}{|c|c|c|c|}
         \hline
@@ -456,7 +461,7 @@ Los valores de intensidad y voltaje medidos para el segmento $U_{1}$, formado so
     \caption{Datos experimentales del cable de 100 mm}
 \end{table}
 
-A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y=bx$. Haciendo una similitud con la ley de Ohm $(V=IR)$, la pendiente de la recta será la resistencia del cable. Los datos empleados para el ajuste figuran en el anexo del final y los parámetros obtenidos fueron los siguientes:
+A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y=bx$. Haciendo una similitud con la ley de Ohm $(V=IR)$, la pendiente de la recta será la resistencia del cable. Los parámetros obtenidos fueron los siguientes:
 
 \begin{equation}
     \begin{gathered}
@@ -476,9 +481,6 @@ Por tanto la recta a la que aproximaremos nuestros puntos es:
     y = 0,009058x
 \end{equation}
 
-
-\newpage
-
 Los valores obtenidos para el segmento $U_{2}$, formado por el cable y la caja de conexiones, son los siguientes:
 
 \begin{table}[h!]
@@ -495,23 +497,23 @@ Los valores obtenidos para el segmento $U_{2}$, formado por el cable y la caja d
         \hline
         $0,8$ & $17,2$ & $2,8$ & $60,5$ \\
         \hline
-        $1$ & $21,5$ & $3$ & $64,4$ \\
+        $1,0$ & $21,5$ & $3,0$ & $64,4$ \\
         \hline
         $1,2$ & $25,9$ & $3,2$ & $68,7$ \\
         \hline
-        $1,4$ & $30,1$ & $3,4$ & $73$ \\ 
+        $1,4$ & $30,1$ & $3,4$ & $73,0$ \\ 
         \hline
         $1,6$ & $34,8$ & $3,6$ & $77,3$ \\
         \hline
-        $1,8$ & $39$ & $3,8$ & $81,5$ \\
+        $1,8$ & $39,0$ & $3,8$ & $81,5$ \\
         \hline
-        $2$ & $43,3$ & $4$ & $85,8$ \\ [1ex] 
+        $2,0$ & $43,3$ & $4,0$ & $85,8$ \\ 
         \hline
     \end{tabular}
     \caption{Datos experimentales del cable de 100 mm y la caja de conexiones}
 \end{table}
 
-A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y=bx$. Haciendo una similitud con la ley de Ohm $(V=IR)$, la pendiente de la recta será la resistencia del cable. Los datos empleados para el ajuste figuran en el anexo del final y los parámetros obtenidos fueron los siguientes:
+A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y=bx$. Haciendo una similitud con la ley de Ohm $(V=IR)$, la pendiente de la recta será la resistencia del cable. Los parámetros obtenidos fueron los siguientes:
 
 \begin{equation}
     \begin{gathered}
@@ -532,6 +534,8 @@ Por tanto la recta a la que aproximaremos nuestros puntos es:
 \end{equation}
 
 Cabe destacar que en los valores de caída de potencial reflejados en las tablas ya hemos tenido en cuenta el valor del voltaje residual, que situaba al cero en un valor de $0,4 \; mV$. Para corregir este efecto aplicamos la Ec.\ref{Voltaje residual} y restamos el valor del cero residual a todos los valores medidos. Esta correción afecta a la incertidumbre y tendremos que aplicar la Ec.\ref{Inc voltaje}.
+
+\newpage
 
 \par A diferencia de los apartados anteriores, al no estar trabajando con el amplificador, los valores medidos en el voltímetro no oscilaban, por lo que hemos considerado la incertidumbre del propio voltímetro $(0,1 \; mV=10 \cdot 10^{-4} \; V)$ como la incertidumbre de las caídas de potencial medidas.
 
@@ -561,6 +565,8 @@ A partir de los ajustes podemos calcular la resistencia entre contactos de la ca
         s(R_{C1}) = 1.5 \cdot 10^{-5} \Omega
     \end{gathered}
 \end{equation}
+
+\newpage
 
 \subsubsection{Cable de 600 mm}
 
@@ -599,13 +605,13 @@ Los valores medidos para el segmento $U_{1}$, formado solo por el cable, fueron 
         \hline
         $1,8$ & $38,7$ & $3,8$ & $82,4$ \\
         \hline
-        $2,0$ & $43$ & $4,0$ & $86,8$ \\
+        $2,0$ & $43,0$ & $4,0$ & $86,8$ \\
         \hline
     \end{tabular}
     \caption{Datos experimentales del cable de 600 mm (Segemto $U_{1}$)}
 \end{table}
 
-A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los datos empleados para el ajuste figuran en el anexo del final y los parámetros obtenidos fueron los siguientes:
+A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los parámetros obtenidos fueron los siguientes:
 
 \begin{equation}
     \begin{gathered}
@@ -634,7 +640,7 @@ Para el segmento $U_{2}$, formado por el cable de 600 mm y la caja de conexiones
         \hline
         $0,4$ & $22,8$ & $2,2$ & $124,5$ \\
         \hline
-        $0,6$ & $34$ & $2,4$ & $135,6$ \\
+        $0,6$ & $34,0$ & $2,4$ & $135,6$ \\
         \hline
         $0,8$ & $45,4$ & $2,6$ & $146,7$ \\
         \hline
@@ -652,7 +658,7 @@ Para el segmento $U_{2}$, formado por el cable de 600 mm y la caja de conexiones
     \caption{Datos expeerimentales del cable de 600 mm y la caja de conexiones}
 \end{table}
 
-A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los datos empleados para el ajuste figuran en el anexo del final y los parámetros obtenidos fueron los siguientes:
+A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los parámetros obtenidos fueron los siguientes:
 
 \begin{equation}
     \begin{gathered}
@@ -677,6 +683,8 @@ En la siguiente figura podemos ver una representación gráfica de nuestros dato
     \caption{Datos experimentales y rectas de rgresión del cable de 600 mm}
 \end{figure}
 
+\newpage
+
 A partir de los ajustes podemos calcular la resistencia entre contactos de la caja de conexiones y su incertidumbre usando la Ec.\ref{Resistencia contactos} y la Ec.\ref{Inc Resistencia caja}:
 
 \begin{equation}
@@ -686,7 +694,7 @@ A partir de los ajustes podemos calcular la resistencia entre contactos de la ca
     \end{gathered}
 \end{equation}
 
-\newpage
+
 
 \subsubsection{Cable de 2000 mm}
 
@@ -713,12 +721,12 @@ A la hora de realizar las medidas nos encontramos, de la misma forma que en el a
         $1,0$ & $0,163$ & $2,6$ & $0,452$ \\ \hline
         $1,2$ & $0,196$ & $2,8$ & $0,489$ \\ \hline
         $1,4$ & $0,233$ & $3,0$ & $0,525$ \\ \hline
-        $1,6$ & $0,267$ & $3,2$ & $0,57$ \\ \hline
+        $1,6$ & $0,267$ & $3,2$ & $0,570$ \\ \hline
     \end{tabular}
     \caption{Datos experimentales del cable de 2000 mm}
 \end{table}
 
-A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los datos empleados para el ajuste figuran en el anexo del final y los parámetros obtenidos fueron los siguientes:
+A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los parámetros obtenidos fueron los siguientes:
 
 \begin{equation}
     \begin{gathered}
@@ -755,7 +763,9 @@ Para el segmento $U_{2}$, formado por el cable de 2000 mm y la caja de conexione
     \caption{Datos experimentales del cable de 2000 mm y la caja de conexiones}
 \end{table}
 
-A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los datos empleados para el ajuste figuran en el anexo del final y los parámetros obtenidos fueron los siguientes:
+\newpage
+
+A partir de estos datos vamos a realizar un ajuste por el método de los mínimos cuadrados donde ajustaremos nuestros datos experimentales a una recta del tipo $y = bx$. Haciendo una similitud con la ley de Ohm (V = IR), la pendiente de la recta será la resistencia del cable. Los parámetros obtenidos fueron los siguientes:
 
 \begin{equation}
     \begin{gathered}
@@ -780,6 +790,8 @@ En la siguiente figura podemos ver una representación gráfica de nuestros dato
     \caption{Datos experimentales y rectas de rgresión del cable de 2000 mm}
 \end{figure}
 
+\newpage
+
 A partir de los ajustes podemos calcular la resistencia entre contactos de la caja de conexiones y su incertidumbre usando la Ec.\ref{Resistencia contactos} y la Ec.\ref{Inc Resistencia caja}:
 
 \begin{equation}
@@ -796,9 +808,47 @@ A partir de los ajustes podemos calcular la resistencia entre contactos de la ca
 
 \section{Conclusiones}
 
+Finalmente, vamos a hacer una recapitulación de todos los resultados obtenidos, para poder realizar un análisis global de la práctica. La primera parte de la práctica se centró en determinar la resistividad de dos materiales, el cobre y el aluminio, a partir de la determinación de la resistencia de la barra metálica. Los resultados obtenidos, comparados con los reales obtenidos de \textit{The Handbook of Chemistry and Physics} fueron los siguientes:
 
-\section{Anexo: Datos empleados para las regresiones lineales}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Material & $\rho_E \pm s(\rho_E) \; (\Omega \cdot m)$ & $\rho \; (\Omega \cdot m)$  \\ \hline
+        Cobre  & $1,851 \cdot 10^{-8} \pm 7,7 \cdot 10^{-10}$ & $1.678 \cdot 10^{-8}$ \\ \hline
+        Aluminio &$2,58 \cdot 10^{-8} \pm 1,0 \cdot 10^{-9}$ & $2.650\cdot 10^{-8}$\\ \hline
+    \end{tabular}
+    \caption{Resultados obtenidos para las resistividades}
+\end{table}
 
+Como podemos ver, los resultados obtenidos se acercan bastante a los valores reales, las diferencias, pese a que no entran dentro del rango de incertidumbre en el caso del cobre, son muy pequeñas, los valores medidos se corresponden bastante con la realidad. Las pequeñas diferencias las podemos atribuír a los problemas sufridos toda la práctica con los materiales, sobre todo con la fuente de alimentación. Por tanto, podemos concluir que esta primera parte de la práctica fue un éxito.
 
+\par Por otro lado, la segunda parte de la práctica se centró en determinar la resistencia entre contactos de la caja de conexiones. Para ello medimos las diferencias en la resistencia medida solo con el cable y con el cable y la caja de conexiones para tres cables de longitudes diferentes. Los resultados obtenidos de la resistencia entre contactos fueron:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Cable & $R_{C} \pm s(R_C) \; (\Omega)$ \\ \hline
+        $100 \; mm$ & $0,006230 \pm 0,000015$\\ \hline
+        $600 \; mm$ & $0,017422 \pm 0,000026$\\ \hline
+        $2000 \; mm$ & $0,0355 \pm 0,0047$\\ \hline
+    \end{tabular}
+    \caption{Resultados obtenidos para la resistencia entre contactos}
+\end{table}
+
+En esta parte de la práctica los resultados obtenidos difieren bastante más entre sí, llegando las diferencias incluso a un orden de magnitud entre la medida con el primer cable y las otras dos. No obstante, en esta parte de la práctica era hasta cierto punto esperable obtener esas diferencias, sobre todo al trabajar con los cables más largos. Este error sistemático se puede explicar porque las resistencias de los cables con los que trabajamos son notablemente mayores que la resistencia entre contactos de la caja de conexiones, por lo que cualquier falta de precisión en la medida de la resistencia de los cables puede provocar variaciones muy grandes en el valor obtenido de la resistencia entre contactos.
+
+\par Además de eso, otra posible causa para esas diferencias es el mal funcionamiento del material empleado. Como ya hemos explicado anteriormente, al trabajar con intensidades altas en los cables más largos (Por encima de 3 A) los valores de voltaje medidos perdían la linealidad y la fiabilidad. Debido a esto tomamos menos medidas que en el primer cable y las medidas que tomamos probablemente no se ajustarán del todo a los valores reales.
+
+\par Finalmente, pese a todo podemos considerar que hemos alcanzado los objetivos propuestos en la práctica. Conseguimos determinar la resistividad del cobre y del aluminio, obteniendo valores fiables, y conseguimos determinar la resistencia entre contactos de la caja de conexiones, teniendo en cuenta el error sistemático comentado. Además de eso adquirimos una gran experiencia en el manejo de aparatos eléctricos, como la fuente de alimentación, los multímetros y el amplificador.
+
+\section{Bibliografía}
+
+\begin{itemize}
+    \item Guión y vídeo explicativo de la práctica de pequeñas resistencias. Campus virtual USC, técnicas experimentales I.
+    \item \textit{The Handbook of Chemistry and Physics}
+    \item \url{https://es.wikipedia.org/wiki/Ley_de_Ohm}
+\end{itemize}
 
 \end{document}

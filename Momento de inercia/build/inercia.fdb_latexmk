@@ -1,11 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1683455563 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" "build/inercia.pdf" "inercia" 1683455565 0
+["pdflatex"] 1683571164 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" "build/inercia.pdf" "inercia" 1683571166 0
   "Images/Material MI 2.jpeg" 1683017226 113257 a7c800c8c9793b7cb202afa1d3931ff8 ""
   "Images/Material MI-1.jpg" 1683016140 228517 22e79d22d4dc5e77b4be94c2090c95d7 ""
   "Images/regSteiner1.png" 1683301060 31786 22aa0bbd0a2e1b056050975c266d949c ""
-  "build/inercia.aux" 1683455565 4507 5c71e8ace0243723a97a00e133e20c16 "pdflatex"
-  "build/inercia.toc" 1683455565 1160 4e16627e33a4c05f92f3a67f0f527deb "pdflatex"
-  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" 1683455562 38504 b31899e0ebb77de7fb840153629f13f6 ""
+  "Images/regSteiner2.png" 1683557550 35251 37ed7cfc16c3e7e9935b89fee70b45e0 ""
+  "build/inercia.aux" 1683571166 5212 bb4eb4f73da4dcc29060b82e04306890 "pdflatex"
+  "build/inercia.toc" 1683571166 1162 32b89efc4ff41a690164f4e9914cbd3c "pdflatex"
+  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Momento de inercia/inercia.tex" 1683571163 46649 c71753a8e29244c0d2e0b661010a862c ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1679153495 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1679143990 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1679143990 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -75,7 +76,7 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1679170740 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1679170869 7883444 31504c5b761f71e4bd43423edb7760cb ""
   "c:/texlive/2022/texmf.cnf" 1679170706 713 e69b156964470283e0530f5060668171 ""
-  "inercia.tex" 1683455562 38504 b31899e0ebb77de7fb840153629f13f6 ""
+  "inercia.tex" 1683571163 46649 c71753a8e29244c0d2e0b661010a862c ""
   (generated)
   "build/inercia.aux"
   "build/inercia.log"

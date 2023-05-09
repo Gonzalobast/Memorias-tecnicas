@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  27 APR 2023 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  9 MAY 2023 01:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,14 +497,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./Images/RegresionPermeabilidad.png>]
+Overfull \hbox (2.60704pt too wide) in paragraph at lines 469--470
+[]\OT1/cmr/m/n/12 La pri-me-ra par-te de la pr^^Sacti-ca se centr^^So en el es-tu-dio del cam-po magn^^Seti-co
+ []
+
 <Images/Tres curvas.png, id=75, 462.528pt x 346.896pt>
 File: Images/Tres curvas.png Graphic file (type png)
 <use Images/Tres curvas.png>
-Package pdftex.def Info: Images/Tres curvas.png  used on input line 475.
+Package pdftex.def Info: Images/Tres curvas.png  used on input line 473.
 (pdftex.def)             Requested size: 370.49881pt x 277.8877pt.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[17 <./Images/Tres curvas.png>]
+Overfull \hbox (4.0828pt too wide) in paragraph at lines 491--492
+\OT1/cmr/m/n/12 magn^^Seti-ca, que re-afir-ma to-das nues-tras me-di-das. Adem^^Sas de to-do es-to tu-vi-mos
+ []
+
+
+Overfull \hbox (18.30957pt too wide) in paragraph at lines 491--492
+\OT1/cmr/m/n/12 apa-ra-tos de me-di-da co-mo el tesl^^Same-tro, del que des-co-noc^^S^^Pamos su fun-cio-na-mien-to
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -513,15 +530,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18 <./Images/Tres curvas.png>] (build/bobinas.aux
+[18] (build/bobinas.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
@@ -534,7 +543,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,13n,63p,1244b,405s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on build/bobinas.pdf (18 pages, 1266468 bytes).
+Output written on build/bobinas.pdf (18 pages, 1267047 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  7 MAY 2023 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.18)  8 MAY 2023 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -282,7 +282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Overfull \hbox (27.70816pt too wide) in paragraph at lines 111--112
+Overfull \hbox (27.70816pt too wide) in paragraph at lines 112--113
 \OT1/cmr/m/n/12 cuer-po mi-dien-do su per^^S^^Podo de os-ci-la-ci^^Son cuan-do se so-me-te a la fuer-za re-cu-pe-ra-do-ra
  []
 
@@ -294,20 +294,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (9.39586pt too wide) in paragraph at lines 130--131
+Overfull \hbox (9.39586pt too wide) in paragraph at lines 131--132
 \OT1/cmr/m/n/12 La in-cer-ti-dum-bre de las me-di-das ma-sas vie-ne da-da por la pre-ci-si^^Son ins-tru-men-tal
  []
 
 <Images/Material MI-1.jpg, id=23, 1673.25125pt x 1151.30125pt>
 File: Images/Material MI-1.jpg Graphic file (type jpg)
 <use Images/Material MI-1.jpg>
-Package pdftex.def Info: Images/Material MI-1.jpg  used on input line 152.
+Package pdftex.def Info: Images/Material MI-1.jpg  used on input line 153.
 (pdftex.def)             Requested size: 292.5pt x 201.25237pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (11.47289pt too wide) in paragraph at lines 158--158
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+Overfull \hbox (11.47289pt too wide) in paragraph at lines 161--161
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son del mo-men-to de iner-cia de di-fe-ren-tes
  []
 
@@ -318,26 +325,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [5 <./Images/Material MI-1.jpg>]
-Overfull \hbox (28.71788pt too wide) in paragraph at lines 175--176
+Overfull \hbox (28.71788pt too wide) in paragraph at lines 178--179
 []\OT1/cmr/m/n/12 Para la in-cer-ti-dum-bre del mo-men-to apli-ca-re-mos pro-pa-ga-ci^^Son de in-cer-ti-dum-bres: 
  []
 
 
-Overfull \hbox (20.4624pt too wide) in paragraph at lines 188--189
+Overfull \hbox (20.4624pt too wide) in paragraph at lines 191--192
 \OT1/cmr/m/n/12 del dis-co con la re-gla mi-li-me-tra-da que cuen-ta con una pre-ci-si^^Son ins-tru-men-tal
  []
 
 
-Overfull \hbox (16.47504pt too wide) in paragraph at lines 207--208
+Overfull \hbox (16.47504pt too wide) in paragraph at lines 210--211
 []\OT1/cmr/m/n/12 A par-tir de pro-pa-ga-ci^^Son de in-cer-ti-dum-bres po-de-mos cal-cu-lar la in-cer-ti-dum-bre
  []
 
@@ -349,7 +348,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Overfull \hbox (0.614pt too wide) in paragraph at lines 227--228
+Overfull \hbox (0.614pt too wide) in paragraph at lines 230--231
 []\OT1/cmr/m/n/12 Una vez cal-cu-la-dos los mo-men-tos de iner-cia ex-pe-ri-men-ta-les de ca-da cuer-po
  []
 
@@ -364,8 +363,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Images/Material MI 2.jpeg, id=40, 1326.9575pt x 1003.75pt>
 File: Images/Material MI 2.jpeg Graphic file (type jpg)
 <use Images/Material MI 2.jpeg>
-Package pdftex.def Info: Images/Material MI 2.jpeg  used on input line 263.
+Package pdftex.def Info: Images/Material MI 2.jpeg  used on input line 266.
 (pdftex.def)             Requested size: 253.49762pt x 191.74065pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -374,30 +376,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./Images/Material MI 2.jpeg>]
-Overfull \hbox (11.47289pt too wide) in paragraph at lines 271--271
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <./Images/Material MI 2.jpeg>]
+Overfull \hbox (11.47289pt too wide) in paragraph at lines 278--278
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son del mo-men-to de iner-cia de di-fe-ren-tes
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-Overfull \hbox (35.95291pt too wide) in paragraph at lines 314--314
+Overfull \hbox (35.95291pt too wide) in paragraph at lines 321--321
 []\OT1/cmr/bx/n/14.4 Determinaci^^Son de los mo-men-tos de iner-cia de di-fe-ren-tes
  []
 
 
-Overfull \hbox (4.9301pt too wide) in paragraph at lines 316--317
+Overfull \hbox (4.9301pt too wide) in paragraph at lines 323--324
 \OT1/cmr/m/n/12 a es-tu-diar apli-ca-re-mos la Ec.20[]. Pa-ra ello ne-ce-si-ta-re-mos co-no-cer el se-mi-per^^S^^Podo
  []
 
 
-Overfull \hbox (4.66666pt too wide) in paragraph at lines 316--317
+Overfull \hbox (4.66666pt too wide) in paragraph at lines 323--324
 \OT1/cmr/m/n/12 de os-ci-la-ci^^Son de los di-fe-ren-tes cuer-pos, que es-ti-ma-re-mos a par-tir de un con-jun-to
  []
 
@@ -409,7 +412,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-Overfull \hbox (12.79027pt too wide) in paragraph at lines 361--362
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+Overfull \hbox (12.79027pt too wide) in paragraph at lines 368--369
 []\OT1/cmr/m/n/12 Por tan-to nues-tro va-lor fi-nal de re-fe-ren-cia del se-mi-per^^S^^Podo y su in-cer-ti-dum-bre
  []
 
@@ -420,8 +431,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
-Overfull \hbox (2.67363pt too wide) in paragraph at lines 413--414
+[12]
+Overfull \hbox (2.67363pt too wide) in paragraph at lines 420--421
 []\OT1/cmr/m/n/12 Por tan-to, nues-tro va-lor de re-fe-ren-cia del se-mi-per^^S^^Podo con su in-cer-ti-dum-bre
  []
 
@@ -432,21 +443,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 488.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [13]
-Overfull \hbox (10.34576pt too wide) in paragraph at lines 525--526
-\OT1/cmr/m/n/12 t^^S^^Ppi-ca de la me-dia y la in-cer-ti-dum-bre com-bi-na-da, que ser^^Sa con la que ex-pre-se-mos
+Overfull \hbox (0.5542pt too wide) in paragraph at lines 483--484
+\OT1/cmr/m/n/12 reite-ra-da du-ran-te to-da la pr^^Sacti-ca, co-mo po-de-mos ver com-pa-ran-do re-sul-ta-dos.
  []
 
 
@@ -457,6 +456,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
+Overfull \hbox (10.34576pt too wide) in paragraph at lines 536--537
+\OT1/cmr/m/n/12 t^^S^^Ppi-ca de la me-dia y la in-cer-ti-dum-bre com-bi-na-da, que ser^^Sa con la que ex-pre-se-mos
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -473,13 +476,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-<Images/regSteiner1.png, id=69, 462.528pt x 346.896pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+<Images/regSteiner1.png, id=72, 462.528pt x 346.896pt>
 File: Images/regSteiner1.png Graphic file (type png)
 <use Images/regSteiner1.png>
-Package pdftex.def Info: Images/regSteiner1.png  used on input line 622.
+Package pdftex.def Info: Images/regSteiner1.png  used on input line 635.
 (pdftex.def)             Requested size: 331.50238pt x 248.63747pt.
 
-Overfull \hbox (11.91241pt too wide) in paragraph at lines 632--633
+Overfull \hbox (11.91241pt too wide) in paragraph at lines 645--646
 \OT1/cmr/m/n/12 en-con-tra-ba per-fo-ra-do y no se tra-ta-ba de un dis-co ideal, cual-quier he-te-ro-ge-nei-dad
  []
 
@@ -490,13 +501,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17 <./Images/regSteiner1.png>]
-Overfull \hbox (1.72218pt too wide) in paragraph at lines 636--637
-\OT1/cmr/m/n/12 en otro cuer-po di-fe-ren-te, una ba-rra r^^S^^Pgi-da de $65\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 7 \OML/cmm/m/it/12 cm$ \OT1/cmr/m/n/12 de lon-gi-tud y $0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 12143 \OML/cmm/m/it/12 kg$
- []
-
-
-Overfull \hbox (10.86546pt too wide) in paragraph at lines 646--657
+[18 <./Images/regSteiner1.png>]
+Overfull \hbox (10.86546pt too wide) in paragraph at lines 661--672
  [][] 
  []
 
@@ -504,17 +510,68 @@ Overfull \hbox (10.86546pt too wide) in paragraph at lines 646--657
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (10.53482pt too wide) in paragraph at lines 677--678
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Overfull \hbox (10.53482pt too wide) in paragraph at lines 694--695
 []\OT1/cmr/m/n/12 A par-tir de es-tos da-tos va-mos a bus-car un va-lor de re-fe-ren-cia del se-mi-per^^S^^Podo
  []
 
 
-Overfull \hbox (88.58919pt too wide) in paragraph at lines 683--698
+Overfull \hbox (60.78134pt too wide) in paragraph at lines 698--713
  [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+Overfull \hbox (11.02779pt too wide) in paragraph at lines 780--781
+[]\OT1/cmr/m/n/12 En la si-guien-te gr^^Safi-ca po-de-mos ver re-pre-sen-ta-do nues-tro ajus-te por m^^S^^Pni-mos
+ []
+
+<Images/regSteiner2.png, id=88, 462.528pt x 346.896pt>
+File: Images/regSteiner2.png Graphic file (type png)
+<use Images/regSteiner2.png>
+Package pdftex.def Info: Images/regSteiner2.png  used on input line 784.
+(pdftex.def)             Requested size: 292.5pt x 219.38724pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./Images/regSteiner2.png>]
+Overfull \hbox (7.37358pt too wide) in paragraph at lines 792--793
+[]\OT1/cmr/m/n/12 Esta pr^^Sacti-ca se centr^^So en dos pi-la-res fun-da-men-ta-les, el c^^Salcu-lo del mo-men-to
+ []
+
+
+Overfull \hbox (18.99553pt too wide) in paragraph at lines 823--824
+[]\OT1/cmr/m/n/12 Finalmente, po-de-mos con-clu^^S^^Pr que, pe-se a los pro-ble-mas su-fri-dos, con-se-gui-mos
+ []
+
+
+Overfull \hbox (15.43738pt too wide) in paragraph at lines 823--824
+\OT1/cmr/m/n/12 al-can-zar los ob-je-ti-vos pro-pues-tos en es-ta pr^^Sacti-ca, adem^^Sas de ha-ber pro-fun-di-za-do
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -523,7 +580,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[23]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -531,23 +588,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19] (build/inercia.aux
+[24] (build/inercia.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 5831 strings out of 476024
- 95796 string characters out of 5794016
- 1877382 words of memory out of 5000000
- 26225 multiletter control sequences out of 15000+600000
+ 5840 strings out of 476024
+ 95983 string characters out of 5794016
+ 1873382 words of memory out of 5000000
+ 26233 multiletter control sequences out of 15000+600000
  521397 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,13n,63p,950b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on build/inercia.pdf (20 pages, 531970 bytes).
+Output written on build/inercia.pdf (25 pages, 568266 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,14 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1682617179 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Bobinas Helmholtz/bobinas.tex" "build/bobinas.pdf" "bobinas" 1682617181 0
+["pdflatex"] 1683590071 "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Bobinas Helmholtz/bobinas.tex" "build/bobinas.pdf" "bobinas" 1683590074 0
   "Images/CurvaB1.png" 1682350920 38665 6db9953f3411283cf7f9827826d339fd ""
   "Images/CurvaB2.png" 1682351159 37962 f6ddb1fd21e0e9e04597e2c5c6ab39e1 ""
   "Images/CurvasCorregidas.png" 1682355213 86450 7c77b8c75f6b234a5fabf6b579f1f2e5 ""
   "Images/RegresionPermeabilidad.png" 1682609309 35371 ba390d3cfe43fb91697bae134db46069 ""
   "Images/Tres curvas.png" 1682614002 59038 d9ea0e11c1a28d4d18b96e33bdb3d401 ""
   "Images/bobinas esquema.png" 1681893709 552289 e478cab8f2780b84701a12909e4e1900 ""
-  "bobinas.tex" 1682617176 31110 b8a3172807d739b10945283d6e726ade ""
-  "build/bobinas.aux" 1682617181 4747 7fdc0f8a24a118a56731bd12ac57e9b7 "pdflatex"
-  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Bobinas Helmholtz/bobinas.tex" 1682617176 31110 b8a3172807d739b10945283d6e726ade ""
+  "bobinas.tex" 1683590069 31918 cf294703c886b52d7778415356512a7f ""
+  "build/bobinas.aux" 1683590074 4457 707657c5bb5a761034ceb370fb71c24c "pdflatex"
+  "c:/Users/gbast/OneDrive/Escritorio/Física/tecnicas experimentales/Memorias/Bobinas Helmholtz/bobinas.tex" 1683590069 31918 cf294703c886b52d7778415356512a7f ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1679153495 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1679143990 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1679143990 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""

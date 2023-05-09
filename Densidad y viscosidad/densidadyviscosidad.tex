@@ -211,7 +211,7 @@ Donde la incertidumbre representa la precisión de la balanza empleada.
 La media aritmética de la muestra inicial (Con $n=10$) y su desviación típica se calculan de la siguiente forma:
 
 \begin{align}
-    \overline{m} &= \frac{\sum_{i}^n m_{i}}{n} = 45.74 \; g 
+    \overline{m} &= \frac{\sum_{i}^n m_{i}}{n} = 45.740 \; g 
     \label{Media1} \\
     s_{A}(m) &= \sqrt{\frac{\sum_{i}^n (m_i-\overline{m})^2}{n-1}} = 0.043 \; g
     \label{Desviación Típica de la muestra}
@@ -244,13 +244,13 @@ A continuación debemos calcular el valor de la incertidumbre combinada de la mu
 Después de aplicar el factor de cobertura podemos observar que todos los datos experimentales se encuentran dentro del intervalo de confianza por lo que el valor final de la media de la masa del picnómetro con agua es el siguiente:
 
 \begin{equation}
-    \overline{m} = 45,74 \pm 0,017 \; g
+    \overline{m} = 45,740 \pm 0,017 \; g
 \end{equation}
 
 Por tanto, el volumen del picnómetro tomaría el siguiente valor, aplicando la Ec.\ref{VolPicnometro}:
 
 \begin{equation}
-    V = \frac{\overline{m}-m_{p}}{\rho_{o}} = \frac{45,74-19,12}{2} = 26.621\; mL
+    V = \frac{\overline{m}-m_{p}}{\rho_{o}}  = 26.621\; mL
 \end{equation}
 
 Para calcular la incertidumbre del volumen del picnómetro vamos a aplicar propagación de incertidumbres:
@@ -309,7 +309,7 @@ Aplicando el factor de cobertura $k=2$ obtenemos el intervalo de confianza $[40,
 Por tanto, el valor final de la media de la masas del picnómetro lleno de acetona es el siguiente:
 
 \begin{equation}
-    \overline{m}_{ac} = 40,34 \pm 0,017 \; g
+    \overline{m}_{ac} = 40,343 \pm 0,017 \; g
 \end{equation}
 
 Este valor nos servirá para calcular la densidad de la acetona a partir de la Ec.\ref{Densidad liq}:
@@ -379,13 +379,13 @@ Si aplicamos el factor de cobertura $k=2$ obtenemos el intervalo de confianza $[
 El valor final de la media de las masas del picnómetro lleno de alcohol es:
 
 \begin{equation}
-    \overline{m}_{al} = 41,11 \pm 0,012 \; g
+    \overline{m}_{al} = 41,114 \pm 0,012 \; g
 \end{equation}
 
 Sustituyendo este valor en la Ec.\ref{Densidad liq} podemos obtener el valor de la densidad del alcohol:
 
 \begin{equation}
-    \rho_{al} = \frac{41,11-19,12}{45,74-19,12} = 0.82620 \; \frac{g}{cm^3}
+    \rho_{al}  = 0.82620 \; \frac{g}{cm^3}
 \end{equation}
 
 Por último, calcularemos la incertidumbre de la densidad del alcohol aplicando la Ec.\ref{Inceridumbre densidad liq}, sustituyendo, por supuesto, la media de las masas de la acetona por la del alcohol. De esta forma el valor final de la densidad del alcohol es:
@@ -448,7 +448,7 @@ Aplicando el factor de cobertura $k=2$ obtenemos el intervalo $[54,376 \; g  ; 5
 Por tanto, la media de las masas del picnómetro con perdigones y agua es la siguiente:
 
 \begin{equation}
-    \overline{m}_{T}=54,45 \pm 0,015 \; g
+    \overline{m}_{T}=54,450 \pm 0,015 \; g
 \end{equation}
 
 Este valor nos servirá para calcular la densidad del plomo a partir de la Ec.\ref{Densidad Sólido}
@@ -510,21 +510,27 @@ Como se explicó en el apartado anterior, una vez conocida la viscosidad dinámi
     \centering
     \begin{tabular}{|c|c|}
     \hline
-    Medida & $T \pm s(T) \; s$\\ \hline
-    $1$    & $153.45\pm0,25$ \\ \hline
-    $2$    & $156.20\pm0,25$ \\ \hline
-    $3$    & $154.89\pm0,25$ \\ \hline
-    $4$    & $154.54\pm0,25$ \\ \hline
-    $5$    & $153.50\pm0,25$ \\ \hline
-    $6$    & $154.06\pm0,25$ \\ \hline
-    $7$    & $154.01\pm0,25$ \\ \hline
-    $8$    & $154.27\pm0,25$ \\ \hline
-    $9$    & $154.64\pm0,25$ \\ \hline
-    $10$   & $154.10\pm0,25$ \\ \hline
+    Medida & $T \; (s)$\\ \hline
+    $1$    & $153.45$ \\ \hline
+    $2$    & $156.20$ \\ \hline
+    $3$    & $154.89$ \\ \hline
+    $4$    & $154.54$ \\ \hline
+    $5$    & $153.50$ \\ \hline
+    $6$    & $154.06$ \\ \hline
+    $7$    & $154.01$ \\ \hline
+    $8$    & $154.27$ \\ \hline
+    $9$    & $154.64$ \\ \hline
+    $10$   & $154.10$ \\ \hline
     \end{tabular}
     \caption{Medidas del tiempo de flujo del agua}
     \label{Tiempos agua}
     \end{table}
+
+    \par La incertidumbre de estos valores vendrá dada por el tiempo medio de reacción de un humano ante un estímulo visual, igual que en el apartado anterior:
+
+    \begin{equation}
+        s(T) = 0,25 \; s
+    \end{equation}    
 
     A continuación, vamos a aplicar ciertas técnicas estadísticas para calcular la media del tiempo con su incertidumbre. En primer lugar debemos calcular la media y la desviación típica de la muestra:
 
@@ -593,7 +599,7 @@ El procedimiento para determinar la viscosidad de la acetona va a ser similar al
     7  & 69,84 \\ \hline
     8  & 69,67 \\ \hline
     9  & 69,59 \\ \hline
-    10 & 69,8  \\ \hline
+    10 & 69,80  \\ \hline
     \end{tabular}
     \caption{Medidas del tiempo de flujo de la acetona}
     \label{T acetona}
@@ -652,6 +658,9 @@ Por tanto, el valor final de la viscosidad de la acetona es:
     \eta_{ac} = 0.003626 \pm 2,5 \cdot 10^{-5} \; poise
 \end{equation}
 
+El valor real de la viscosidad de la acetona a $20^{\circ} C$ es de $0,0032 \; poise$, que se acerca bastante al valor medido experimentalmente, aunque no entra dentro del intervalo de incertidumbre.
+
+\newpage
 
 \subsubsection{Viscosidad del alcohol}
 
@@ -712,10 +721,55 @@ Aplicando las Ec.\ref{Viscosidad 1} y Ec.\ref{Inc visc} (Sustituyendo los valore
     \eta_{al} =  0.01695 \pm 0.00010 \; poise
 \end{equation}
 
-El valor teórico de la viscosidad del alcohol es de $0,012 \; poise$ 
+El valor teórico de la viscosidad del alcohol es de $0,012 \; poise$, que, aún sin entrar dentro del intervalo de incertidumbre, se acerca bastante a nuestro valor experimental.
 
 \section{Conclusión}
 
+Como conclusión vamos a realizar una exposición de todos los resultados obtenidos, para poder analizar los resultados de forma global. La primera parte de la práctica se centraba en el concepto de densidad de diferentes materiales, dos líquidos y un sólido. Los resultados obtenidos (Comparados con el valor real) fueron los siguientes:
+
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Material & $\rho  \; (g \cdot cm^{-3})$ & $\rho _E\pm s(\rho_E) \; (g \cdot cm^{-3})$ \\ \hline
+        Acetona &$0, 784$ & $0,79723 \pm 0,00083$ \\ \hline
+        Alcohol & $0, 789$ & $0,82620 \pm  0,00069$\\ \hline
+        Plomo & $11,35$ & $10,6659 \pm 0,0043$ \\ \hline
+    \end{tabular}
+    \caption{Densidades reales y resultados experimentales}
+\end{table}
+
+Donde $\rho$ representa la densidad real y $\rho_E$ representa la densidad determinada experimentalmente. Como podemos observar las densidades experimentales de los líquidos se acercan considerablemente al valor real y la densidad del plomo, aunque difiere algo más, también entra dentro de un margen razonable, sobre todo considerando que los perdigones empleados probablemente no estuvieran hechos enteramente de plomo. Por tanto podemos concluír que en esta primera parte de la práctica los resultados fueron satisfactorios.
+
+\par En la segunda parte de la práctica el objetivo fue determinar la viscosidad dinámica de los dos líquidos con los que trabajamos antes, la acetona y el alcohol. Los resultados obtenidos fueron los siguientes:
+
+\newpage
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Material & $\eta \; (poise)$ & $\eta_E \pm s(\eta_E) \; (poise)$ \\ \hline
+        Acetona & $0,0032$ & $0,003626 \pm 0,000025$ \\ \hline
+        Alcohol &$0,012$ & $0,01695 \pm  0,00010$\\ \hline
+    \end{tabular}
+\end{table}
+
+Los resultados obtenidos reflejan de una forma bastante fiel los valores reales de la viscosidad dinámica de ambos líquidos, a pesar de las pequeñas diferencias. Una de las posibles explicaciones para estas diferencias es el cambio de temperatura, pues la viscosidad, que es una medida de la resistencia del líquido a fluir, tiene cierta dependencia de la temperatura. Esta dependencia tiene su origen a escala molecular, cuando la temperatura aumenta, y con ello la energía térmica de las partículas, se reducen las fuerzas intermoleculares que ejercen entre sí las partículas, disminuyendo su viscosidad. En la siguiente gráfica podemos ver una representación de la viscosidad de varios líquidos, en este caso estática (Medida en $cSt$), en función de la temperatura:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.65\linewidth]{imágenes/viscosidadT.png}
+    \caption{Viscosidad estática de varios líquidos en función de su temperatura}
+\end{figure}
+
+
+Los valores de referencia de la viscosidad que aparecen en la tabla son los valores medidos a una temperatura de $20^{\circ}C$ y una presión de $ 1 \;atm$. Aunque no contamos con los datos de la temperatura de nuestro laboratorio,previsiblemente se encontraba por debajo de esos $20^{\circ}C$, por lo que es una explicación bastante razonable para que el valor de la viscosidad medido sea mayor que el real. 
+
+\par Otra posible explicación es que el conducto del viscosímetro no estuviera suficientemente limpio, quedando alguna mota de polvo dentro de él que dificultara el flujo de los líquidos, aumentando así su viscosidad.
+
+\par Finalmente, pese a estas pequeñas discordancias en general los resultados de las medidas se correspondían bastante con la realidad, por lo que podemos afirmar que hemos alcanzado los objetivos de la práctica. Además de eso, hemos adquirido experiencia en el manejo de aparatos como el picnómetro o el viscosímetro.
 
 
 \end{document}

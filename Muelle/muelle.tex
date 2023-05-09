@@ -125,6 +125,8 @@ Para ello partiremos de un objeto al que someteremos a una caída libre ideal, d
     \label{Formula C.L}
 \end{equation}
 
+\newpage
+
 \section{Materiales y metodología}
 
 \subsection{Determinación de la constante elástica de un muelle}
@@ -148,6 +150,8 @@ En la primera parte de la práctica determinaremos el valor de la constante elá
 
 En primer lugar determinamos el valor de la constante elástica por el método estático, adoptando la configuración experimental que se puede ver en la Fig.\ref{Montaje estatico}.
 Para determinar la constante decidimos tomar 10 medidas de la deformación que producen diez masas diferentes. Para ello realizaremos una regresión lineal simple sin término independiente por el método de los mínimos cuadrados, representando la fuerza en función de la deformación, ya que siguen una relación lineal como observamos en la Ec.\ref{Met estatico}. La pendiente de la recta ($F=\mathbf{b}\Delta x$) se corresponderá con la constante elástica del muelle. Las incertidumbres con las que trabajaremos en este caso son aquellas que proceden de nuestras medidas directas de las masas y las deformaciones.
+
+\newpage
 
 \begin{itemize}
     \item La incertidumbre de la masa viene dada por la precisión instrumental de la balanza y será la misma para todas las masas medidas de forma directa durante la práctica. Esta incertidumbre está directamente relacionada con la del peso:
@@ -197,6 +201,7 @@ A partir del ajuste podremos calcular el valor de la constante elástica del mue
 
 En este apartado de la práctica trataremos de determinar la densidad de varios sólidos y un líquido. Para ello empleamos los siguientes materiales:
 
+
 \begin{itemize}
     \item Muelle pendurado de un soporte
     \item Pesas de densidad desconocida y una balanza
@@ -204,16 +209,18 @@ En este apartado de la práctica trataremos de determinar la densidad de varios 
     \item Regla vertical para medir la deformación
 \end{itemize}
 
+Como explicamos en la introducción, nos vamos a valer del principio de Arquímedes para determinar diferentes densidades. El objetivo fundamental será cuantificar el efecto del empuje del líquido en la deformación, que será menor que en ausencia de líquido. Para ello mediremos la deformación que sufre el muelle cuando de él cuelga una masa $m$, $\Delta x$, y la deformación cuando esa misma masa $m$ está sumergida en un líquido de densidad conocida, $\Delta x'$. 
 
+\newpage
 
-\begin{wrapfigure}{l}{0.4\textwidth}
+\begin{wrapfigure}{l}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\linewidth]{Images/hooke+arquimedes.jpg}
     \caption{Montaje experimental para la determinación de densidades}
     \label{Hooke+arquimedes}
 \end{wrapfigure}
 
-Como explicamos en la introducción, nos vamos a valer del principio de Arquímedes para determinar diferentes densidades. El objetivo fundamental será cuantificar el efecto del empuje del líquido en la deformación, que será menor que en ausencia de líquido. Para ello mediremos la deformación que sufre el muelle cuando de él cuelga una masa $m$, $\Delta x$, y la deformación cuando esa misma masa $m$ está sumergida en un líquido de densidad conocida, $\Delta x'$. El montaje experimental empleado puede verse en la siguiente Fig.\ref{Hooke+arquimedes}. De esta forma podremos calcular la densidad del material del que está hecho esa misma masa $m$, aplicando la Ec.\ref{Densidad sol}. Para calcular la densidad de un líquido debemos realizar las mismas medidas con un sólido de densidad conocida (Usaremos la calculada anteriormente) y aplicaremos la Ec. \ref{Densidad liq}. La incertidumbre asociada a las deformaciones es la misma con la que trabajamos en el apartado anterior, reflejada en la Ec.\ref{Inc deformacion}. Por otro lado, tomaremos la densidad conocida como una constante y calcularemos la densidad del material desconocido a partir de propagación de incertidumbres:
+El montaje experimental empleado puede verse en la siguiente figura . De esta forma podremos calcular la densidad del material del que está hecho esa misma masa $m$, aplicando la Ec.\ref{Densidad sol}. Para calcular la densidad de un líquido debemos realizar las mismas medidas con un sólido de densidad conocida (Usaremos la calculada anteriormente) y aplicaremos la Ec. \ref{Densidad liq}. La incertidumbre asociada a las deformaciones es la misma con la que trabajamos en el apartado anterior, reflejada en la Ec.\ref{Inc deformacion}. Por otro lado, tomaremos la densidad conocida como una constante y calcularemos la densidad del material desconocido a partir de propagación de incertidumbres:
 
 \begin{itemize}
     \item Aplicando propagación de incertidumbres a la Ec.\ref{Densidad sol} obtenemos la incertidumbre de la densidad del sólido:
@@ -281,14 +288,14 @@ Como hemos mencionado anteriormente, para el método estático hemos tomado diez
     \begin{tabular}{|c|c|c|}
     \hline
     Masa (g) & F (N) ($F=mg$) & $\Delta x$ (m) \\ \hline
-    10,2   & 0,09996 & 0,033 \\ \hline
+    10,20   & 0,09996 & 0,033 \\ \hline
     30,25  & 0,29645 & 0,099 \\ \hline
     50,27  & 0,49265 & 0,163 \\ \hline
     70,24  & 0,68835 & 0,227 \\ \hline
-    80,2   & 0,78596 & 0,26  \\ \hline
+    80,20   & 0,78596 & 0,26  \\ \hline
     90,22  & 0,88416 & 0,291 \\ \hline
     100,01 & 0,98010 & 0,322 \\ \hline
-    105,04 & 1,02939 & 0,34  \\ \hline
+    105,04 & 1,02939 & 0,340  \\ \hline
     110,07 & 1,07869 & 0,355 \\ \hline
     115,15 & 1,12847 & 0,372 \\ \hline
     \end{tabular}
@@ -331,23 +338,23 @@ Para el método dinámico hemos tomado diez medidas del período de oscilación 
 
 \begin{table}[h!]
     \centering
-    \begin{tabular}{|c|c|c|c|c|}
+    \begin{tabular}{|c|c|c|c|c|c|}
     \hline
-    Masa (g) & $10T \; (s)$ & $T \; (s)$ & $T^2 \; (s^2) $&   $s(T^2) \; (s^2)$\\ \hline
-    10,20   & 4,24  & 0,424 & 0,180 & 0,021 \\ \hline
-    30,25  & 7,07  & 0,707 & 0,500 & 0,035 \\ \hline
-    50,27  & 8,47  & 0,847 & 0,717 & 0,042 \\ \hline
-    70,24  & 9,97  & 0,997 & 0,994 & 0,050  \\ \hline
-    80,20   & 10,56 & 1,056 & 1,115 & 0,053 \\ \hline
-    90,22  & 11,22 & 1,122 & 1,259 & 0,056 \\ \hline
-    100,01 & 11,72 & 1,172 & 1,374 & 0,059 \\ \hline
-    105,04 & 12,07 & 1,207 & 1,457 & 0,060  \\ \hline
-    110,07 & 12,19 & 1,219 & 1,486 & 0,061 \\ \hline
-    115,15 & 12,62 & 1,262 & 1,593 & 0,063 \\ \hline
+    Masa (kg) & $4\pi^2m \; (kg)$ & $10T \; (s)$ & $T \; (s)$ & $T^2 \; (s^2) $&   $s(T^2) \; (s^2)$\\ \hline
+    0,10200 & 4,02680  & 4,24  & 0,424 & 0,180 & 0,021 \\ \hline
+    0,30250 & 11,94222 & 7,07  & 0,707 & 0,500 & 0,035 \\ \hline
+    0,50270 & 19,84580 & 8,47  & 0,847 & 0,717 & 0,042 \\ \hline
+    0,70240 & 27,72964 & 9,97  & 0,997 & 0,994 & 0,050 \\ \hline
+    0,80200 & 31,66169 & 10,56 & 1,056 & 1,115 & 0,053 \\ \hline
+    0,90220 & 35,61743 & 11,22 & 1,122 & 1,259 & 0,056 \\ \hline
+    1,00010 & 39,48237 & 11,72 & 1,172 & 1,374 & 0,059 \\ \hline
+    1,05040 & 41,46813 & 12,07 & 1,207 & 1,457 & 0,060 \\ \hline
+    1,10070 & 43,45389 & 12,19 & 1,219 & 1,486 & 0,061 \\ \hline
+    1,15150 & 45,45940 & 12,62 & 1,262 & 1,593 & 0,063 \\ \hline
     \end{tabular}
     \caption{Datos experimentales obtenidos a partir del método dinámico}
     \label{Datos dinamico}
-\end{table}
+    \end{table}
 
 A partir de estos datos vamos a realizar nuestra regresión lineal de $T^2$ frente a $4\pi^2m$, como se ha mencionado anteriormente. Como los valores de $T^2$ presentan incertidumbres variables cabría la posibilidad de realizar un ajuste ponderado. No obstante, como la variación de las incertidumbres es pequeña, no llega siquiera a un orden de magnitud, vamos a realizar un ajuste simple, que nos proporcionará una aproximación muy buena del resultado. Los parámetros obtenidos fueron los siguientes:
 
@@ -377,6 +384,8 @@ En la siguiente gráfica podemos ver una representación de los datos experiment
     \caption{Datos experimentales y recta de regresión del método dinámico}
 \end{figure}
 
+\newpage
+
 Finalmente, podemos ver que el valor de nuestra constante difiere un poco al calculado por el método estático. Esta pequeña diferencia podría explicarse por el hecho de haber realizado una regresión lineal simple en vez de ponderada, que era lo que el problema pedía inicialmente al estar tratando con incertidumbres variables. Otra posible explicación de esta diferencia es un cierto error en la medida, pues muchas veces las oscilaciones no eran perfectas, si no que presentaban mucha irregularidad.
 
 
@@ -390,21 +399,38 @@ Para la determinación de la densidad de sólidos contábamos con tres pesas de 
 \begin{table}[h!]
     \centering
     \begin{tabular}{c|c|c|c|c|}
-    \cline{2-5}
-    \multicolumn{1}{l|}{}        & $\Delta x \; (m)$ & $\Delta x' \; (m)$ & $\rho_s \; (g\cdot cm^{-3})$ & $s(\rho_s) \; (g\cdot cm^{-3})$ \\ \hline
-    \multicolumn{1}{|c|}{Masa 1} & 0,16  & 0,102 & 8,40 & 0,59 \\ \hline
-    \multicolumn{1}{|c|}{Masa 2} & 0,445 & 0,392 & 2,76 & 0,16 \\ \hline
-    \multicolumn{1}{|c|}{Masa 3} & 0,476 & 0,425 & 9,33 & 0,69 \\ \hline
+    \cline{1-5}
+    \multicolumn{1}{|c|}{Cuerpo}        & $\Delta x \; (m)$ & $\Delta x' \; (m)$ & $\rho_s \; (g\cdot cm^{-3})$ & $s(\rho_s) \; (g\cdot cm^{-3})$ \\ \hline
+    \multicolumn{1}{|c|}{Plateado 1 ($46,26 \; g$)} & 0,160  & 0,102 & 8,40 & 0,59 \\ \hline
+    \multicolumn{1}{|c|}{Plateado 2 ($137,87 \; g$)} & 0,445 & 0,392 & 2,76 & 0,16 \\ \hline
+    \multicolumn{1}{|c|}{Dorado ($147,37 \; g$)} & 0,476 & 0,425 & 9,33 & 0,69 \\ \hline
     \end{tabular}
     \caption{Datos experimentales y cálculo de la densidad}
     \label{Datos dens sol}
 \end{table}
 
-Para el contraste de resultados nos podemos fijar solo en un valor, el de la masa 2, que era la única hecha de un material conocido, aluminio. La densidad real del aluminio es de $2,7 \; g\cdot cm^{-3}$, que está muy próximo al valor calculado experimentalmente y entra dentro de su rango de incertidumbre.
+\newpage
+
+Para el contraste de resultados nos podemos fijar solo en un valor, el de la masa 2, que era la única hecha de un material conocido, aluminio. La densidad real del aluminio, según \textit{The Handbook of Chemistry and Physics}, es de $2,70 \; g\cdot cm^{-3}$, que está muy próximo al valor calculado experimentalmente y entra dentro de su rango de incertidumbre.
 
 \subsubsection{Líquidos}
 
-En este apartado tratamos de determinar la densidad, \textit{a priori} desconocida, de un líquido, el alcohol. Para ello tomamos las mismas medidas que en el apartado anterior, pero sumergiendo las tres mismas masas en alcohol en vez de en agua. De esta forma mediremos las diferentes deformaciones que se producen con las pesas al aire o sumergidas. Aplicando la Ec.\ref{Densidad liq} y la Ec.\ref{Inc densidad liquido} podemos calcular la densidad del alcohol con su incertidumbre asociada:
+En este apartado tratamos de determinar la densidad, \textit{a priori} desconocida, de un líquido, el alcohol. Para ello tomamos las mismas medidas que en el apartado anterior, pero sumergiendo las tres mismas masas en alcohol en vez de en agua. De esta forma mediremos las diferentes deformaciones que se producen con las pesas al aire o sumergidas. Aplicando la Ec.\ref{Densidad liq} y la Ec.\ref{Inc densidad liquido} podemos calcular la densidad del alcohol con su incertidumbre asociada. Los valores obtenidos figuran en la siguiente tabla:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Cuerpo &  $\Delta x \; (m)$ & $\Delta x' \; (m)$ & $\rho_{Al} \; (g\cdot m^{-3})$ & $s(\rho_{Al}) \; (g\cdot m^{-3})$\\ \hline
+    Plateado 1 ($46,26 \; g$)& 0,160  & 0,130  & 0,517 & 0,062 \\ \hline
+    Plateado 2 ($137,87 \; g$)& 0,445 & 0,398 & 0,887 & 0,062 \\ \hline
+    Dorado ($147,37 \; g$) & 0,476 & 0,440  & 0,706 & 0,052 \\ \hline
+    \end{tabular}
+    \caption{Datos experimentales y cálculo de la densidad del alcohol}
+    \label{Dens liquido}
+    \end{table}
+
+Según \textit{The Handbook of Chemistry and Physics} el valor real de la densidad del alcohol etílico, con el que trabajamos durante toda la práctica, es de $0,7893 \; gm \cdot cm^{-3}$. Si comparamos nuestros resultados con este valor podemos ver que las densidades obtenidas a partir de los datos de los dos últimos cuerpos se acercan bastante a este valor real, aunque presentan una cierta diferencia. Por otro lado, el valor de la densidad obtenido con el primer cuerpo se aleja enormemente de la realidad, por lo que posiblemente hayamos cometido algún error a la hora de tomar las medidas de la deformación de este cuerpo.
 
 \subsection{Determinaación de la gravedad}
 
@@ -458,5 +484,169 @@ Por tanto el valor final de la aceleración de la gravedad es:
 Este valor dista un poco del valor real de $9,807 \; m \cdot s^{-2}$, pero está dentro de un margen razonable para considerar al experimento como verídico.
 
 \section{Conclusiones}
+
+Como conclusión, vamos a realizar una recopilación de todos los resultados obtenidos en los diferentes apartados de nuestra práctica, para poder realizar un análisis global de los resultados.
+
+\par El primer apartado de la práctica se centró en calcular la constante elástica de nuestro muelle por el método dinámico y estático. Los resultados obtenidos fueron los siguientes:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Método & $k \pm s(k) \; (N\cdot m^-1)$ \\ \hline
+        Estático & $3,0335  \pm 0,0026$\\ \hline
+        Dinámico & $2,847 \pm 0,027$\\ \hline
+    \end{tabular}
+\end{table}
+
+Los resultados obtenidos parecen a simple vista más fiables en el método estático, por su incertidumbre menor, algo que podemos corrobar una vez realizado el experimento. En el método dinámico observamos que las oscilaciones estaban lejos de ser perfectas, presentabam mucha irregularidad, lo que dificultaba en parte tomar las medidas. Este hecho, ligado a que la incertidumbre debida al factor humano es mucho mayor empleando el método dinámico, nos hace sospechar en parte de este valor de la constante y tomar el valor obtenido en el método estático como referencia. Pese a todo los dos valores medidos no presentan siquiera diferencias superiores al $10\%$, por lo que podemos afirmar que nuestros resultados fueron satisfactorios.
+
+\par En la segunda parte de la práctica tratamos de determinar las densidades de tres sólidos y un líquido a partir de la aplicación la ley de Hooke, comparando las deformaciones cuando sumergíamos los sólidos en un líquido y cuando los dejábamos al aire. 
+
+\par Los resultados obtenidos para la densidad de los sólidos fueron:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Cuerpo & $m \pm s(m) \; (g)$ & $\rho \pm s(\rho) \; (g\cdot m^{-3})$ \\ \hline
+        Cuerpo 1 & $46,26 \pm 0,01$ & $8,40 \pm 0,59$ \\ \hline
+        Cuerpo 2 & $137,87 \pm 0,01$ & $2,76 \pm 0,16$\\ \hline
+        Cuerpo 3 & $147,37 \pm 0,01$& $9,33 \pm 0,69$ \\ \hline
+    \end{tabular}
+    \caption{Resultados de la densidad de los cuerpos con los que trabajamos}
+\end{table}
+
+Los resultados obtenidos para la densidad del alcohol con los diferentes sólidos fueron:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Cuerpo & $m \pm s(m) \; (g)$ & $\rho_{Al} \pm s(\rho_{Al}) \; (g\cdot m^{-3})$ \\ \hline
+        Cuerpo 1 & $46,26 \pm 0,01$ & $0,517 \pm 0,062$ \\ \hline
+        Cuerpo 2 & $137,87 \pm 0,01$ & $0,887 \pm 0,062$\\ \hline
+        Cuerpo 3 & $147,37 \pm 0,01$& $0,706 \pm 0,052$ \\ \hline
+    \end{tabular}
+    \caption{Resultados de la densidad del alcohol}
+\end{table}
+
+Sobre los resultados obtenidos para los sólidos poco podemos decir sobre su precisión, pues salvo el caso ya comentado del cuerpo 2 (Hecho de aluminio), desconocíamos de que material estaban compuestos. No obstante, quizás podemos desconfiar del valor obtenido para el cuerpo 1, ya que el valor de la densidad del alcohol para ese cuerpo se aleja en gran medida de la realidad. Aunque esa desconfianza es solo una especulación, pues no podemos comprobar si el valor obtenido se ajusta a la realidad o no.
+
+\par Por otro lado, los valores de la densidad del alcohol medidos, como ya comentamos tras el análisis de datos, cuentan con dos resultados aceptables y un resultado, el del cuerpo 1, que se acerca enormemente de la realidad. El gran error en esa medida puede tener varias explicaciones, la primera y más obvia es un error humano a la hora de tomar las medidas. Otra posible causa de error es una falta de precisión arrastrada desde el apartado anterior. Para determinar la densidad del alcohol empleamos el valor de la densidad del cuerpo 1 calculado previamente.
+
+\par En la última parte de la práctica tratamos de determinar el valor de la gravedad a partir del estudio de una caída libre ideal. El valor de la gravedad obtenido, comparado con el real, fue el siguiente:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c|c|}
+    \cline{2-2}
+                           & Valor de $g \; (m\cdot s^{-2})$\\ \hline
+    \multicolumn{1}{|c|}{Experimental} &  $10,126 \pm 0,063$\\ \hline
+    \multicolumn{1}{|c|}{Real} & $9,807$ \\ \hline
+    \end{tabular}
+    \caption{Resultado experimental de la aceleración de la gravedad}
+    \label{tab:my-tabled}
+    \end{table}
+
+Como podemos observar, el valor de $g$ medido, pese a no estar dentro del intervalo de incertidumbre, se acerca bastante al valor teórico. Esta pequeña diferencia puede deberse a cierta falta de precisión a la hora de realizar el ajuste, ya que realizamos una regresión simple en lugar de ponderada, a pesar de que las incertidumbres de $t^2$ no cambiaban siquiera de orden de magnitud. Otra posible explicación para estas pequeñas diferencias es cierta falta de precisión a la hora de tomar las medidas, pues la precisión venía dada por el aparato de medida, que nosotros no controlábamos.
+
+\par En conclusión, pese a que en ciertas medidas obtuvimos un error considerable, podemos concluír que alcanzamos los objetivos principales de la práctica. Conseguimos determinar con éxito la constante elástica del muelle por el método estático y dinámico, conseguimos emplear ese mismo muelle para determinar la densidad de diferentes sólidos y un líquido y, por último, conseguimos determinar con éxito el valor de la gravedad a partir del estudio de una caída libre. Además de eso adquirimos una gran experiencia en la experimentación con cuerpos oscilatorios sometidos a una fuerza recuperada y en la aplicación de la ley de Hooke a diversas situaciones para las que \textit{a priori} no es útil.
+
+\newpage
+
+\section{Anexo: Análisis por mínimos cuadrados}
+
+En este anexo detallaremos el procedimiento para realizar una regresión lineal simple sin término independiente por el método de los mínimos cuadrados, que aplicaremos durante todas las prácticas. En concreto detallaremos el análisis relizado para determinar la constante elástica del muelle por el método estático, en donde representamos la fuerza $F$ frente a la deformación $\Delta x$. La pendiente de nuestra recta ($F=b\Delta x$) se corresponde con la constante elástica del muelle. Las ecuaciones que empleamos para realizar el ajuste fueron las siguientes:
+
+\begin{equation}
+    b=\frac{\sum_{i}x_{i}y_{i}}{\sum_{i}x_{i}^2}
+\end{equation}
+\begin{equation}
+    s=\sqrt{\frac{\sum_{i}(y_{i}-bx_{i})^2}{n-1}}
+\end{equation}
+\begin{equation}
+    s(b)=\frac{s}{\sqrt{\sum_{i}x_{i}^2}}
+\end{equation}
+\begin{equation}
+    r=\frac{\sum_{i}x_{i}y_{i}}{\sqrt{(\sum_{i}x_{i}^2)(\sum_{i}y_{i}^2)}}
+\end{equation}
+
+En la siguiente tabla detallaremos los datos empleados para realizar el análisis paso a paso:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{cc|c|c|c|}
+    \hline
+    \multicolumn{1}{|c|}{$\mathbf{x_i}$} & $\mathbf{y_{i}}$ & $\mathbf{x_ {i}^2}$ & $\mathbf{y_{i}^2}$ & $\mathbf{x_{i}y_{i}}$ \\ \hline
+    \multicolumn{1}{|c|}{10,2}   & 0,09996 & 104,04     & 0,00999 & 1,01959   \\ \hline
+    \multicolumn{1}{|c|}{30,25}  & 0,29645 & 915,0625   & 0,08788 & 8,96761   \\ \hline
+    \multicolumn{1}{|c|}{50,27}  & 0,49265 & 2527,0729  & 0,2427  & 24,76531  \\ \hline
+    \multicolumn{1}{|c|}{70,24}  & 0,68835 & 4933,6576  & 0,47383 & 48,34984  \\ \hline
+    \multicolumn{1}{|c|}{80,2}   & 0,78596 & 6432,04    & 0,61773 & 63,03399  \\ \hline
+    \multicolumn{1}{|c|}{90,22}  & 0,88416 & 8139,6484  & 0,78173 & 79,76855  \\ \hline
+    \multicolumn{1}{|c|}{100,01} & 0,9801  & 10002,0001 & 0,96059 & 98,0196   \\ \hline
+    \multicolumn{1}{|c|}{105,04} & 1,02939 & 11033,4016 & 1,05965 & 108,12734 \\ \hline
+    \multicolumn{1}{|c|}{110,07} & 1,07869 & 12115,4049 & 1,16356 & 118,73097 \\ \hline
+    \multicolumn{1}{|c|}{115,15} & 1,12847 & 13259,5225 & 1,27344 & 129,94332 \\ \hline
+                                 &         & $\sum x_i^2=69461,8505$ & $\sum y_i^2=6,67112$ & $\sum x_i y_i=680,72613$ \\ \cline{3-5} 
+    \end{tabular}
+    \caption{Datos empleados para realizar la regresión}
+    \label{Datos regresion 1}
+    \end{table}
+
+A partir de estos valores ya podemos calcular la pendiente de nuestra recta de regresión, que se corresponderá con la constante elástica del muelle, y el coeficiente de regresión, que nos proporcionará una idea de la correlación de nuestras medidas. Cuanto más cerca esté de 1 el valor de $r$ la correlación entre nuestras medidas será mayor:
+
+\begin{equation}
+    \begin{gathered}
+        b = 3,0335 \; N \cdot m^{-1} \\
+        r = 0,999996
+    \end{gathered}
+\end{equation}
+
+Como podemos observar, el valor de nuestro coeficiente de regresión está muy próximo de 1, por lo que podemos afirmar que existe una gran correlación entre los datos, presentando una clara relación lineal.
+
+\par Una vez calculado el valor de la pendiente de la recta ($b$) ya podemos proceder a calcular las incertidumbres derivadas del ajuste, la desviación típica y la incertidumbre de la pendiente de la recta ($s(b)$). Para ello necesitamos conocer el valor de $\sum_i(y_i-bx_i)^2$, que calcularemos a partir de los datos de la siguiente tabla:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c|c|}
+    \hline
+    \multicolumn{1}{|c|}{$\mathbf{y_i-bx_i}$}  & $\mathbf{(y_i-bx_i)^2}$\\ \hline
+    \multicolumn{1}{|c|}{-30,84174}   & 951,2129262 \\ \hline
+    \multicolumn{1}{|c|}{-91,466925}  & 8366,198369 \\ \hline
+    \multicolumn{1}{|c|}{-152,001399} & 23104,4253  \\ \hline
+    \multicolumn{1}{|c|}{-212,384688} & 45107,2557  \\ \hline
+    \multicolumn{1}{|c|}{-242,50074}  & 58806,6089  \\ \hline
+    \multicolumn{1}{|c|}{-272,798214} & 74418,86556 \\ \hline
+    \multicolumn{1}{|c|}{-302,400237} & 91445,90334 \\ \hline
+    \multicolumn{1}{|c|}{-317,609448} & 100875,7615 \\ \hline
+    \multicolumn{1}{|c|}{-332,818659} & 110768,2598 \\ \hline
+    \multicolumn{1}{|c|}{-348,179055} & 121228,6543 \\ \hline
+                                      & $\sum_i(y_i-bx_i)^2=$635073,1457 \\ \cline{2-2} 
+    \end{tabular}
+    \caption{Datos empleados para calcular $s$ y $s(b)$}
+    \label{tab:my-table}
+    \end{table}
+
+\newpage
+Una vez conocido este valor ya podemos calcular las incertidumbres que nos faltan, la desviación típica y la incertidumbre de la pendiente de la recta, que se corresponde con la incertidumbre de la constante elástica del muelle:
+
+\begin{equation}
+    \begin{gathered}
+        s = 0,0023 \\
+        s(b) = 0,0026 \; N\cdot m^{-1}
+    \end{gathered}
+\end{equation}
+
+Para terminar el ajuste vamos a representar gráficamente los datos con los que trabajamos, en el eje X representaremos la deformación y en el eje Y representaremos los valores de la fuerza. Además de eso representaremos nuestra recta de regresión, de pendiente $b=3,0335\; N\cdot m^{-1}$
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{Images/RegEstatico.png}
+    \caption{Datos experimentales y recta de regresión obtenida a partir del ajuste}
+\end{figure}
+
+
 
 \end{document}

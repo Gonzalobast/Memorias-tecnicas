@@ -189,6 +189,8 @@ print(f'Momento de inercia del cilindro y inc: {InerciaCilindro}')"""
 
 ############## Teorema de Steiner #############
 
+momentosbarra = []
+
 class Steiner:
     def __init__(self,datos,d) -> None:
         self.d = d
@@ -202,7 +204,8 @@ class Steiner:
         IncMI = IncInercia(D,semiT[3],IncD)
         print(f'Momento de inercia: {MI} y su incertidumbre{IncMI}')
         tabla = datostabla(semiT)
-        return tabla
+        momentosbarra.append(MI)
+        return MI
 
 
 
@@ -266,14 +269,14 @@ def regresionSimple(x,y):
 
 """regSteiner1 = regresionSimple(Dcuadrado,MomentosDisco)
 
-print(regSteiner1)
+print(regSteiner1)"""
 
 def recta(a,b):
-    x = np.linspace(0,0.015,1000)
+    x = np.linspace(0,0.011,1000)
     y = a + b*x
     return [x,y]
 
-recta1 = recta(regSteiner1[0],regSteiner1[1])
+"""recta1 = recta(regSteiner1[0],regSteiner1[1])
 
 plot(Dcuadrado,MomentosDisco,'o',color='royalblue',label='Datos experimentales')
 plot(recta1[0],recta1[1],'--',color='navy',label='Recta de regresión')
@@ -330,6 +333,30 @@ MIbarra8 = Barra8.MI()
 MIbarra9 = Barra9.MI()
 MIbarra10 = Barra10.MI()
 
-datosBarra = np.array([MIbarra0,MIbarra1,MIbarra2,MIbarra3,MIbarra4,MIbarra5,MIbarra6,MIbarra7,MIbarra8,MIbarra9,MIbarra10])
+Dbarra2 = []
 
-pd.DataFrame(datosBarra).to_csv('datosbarra.csv')
+for i in range(11):
+    Dbarra2.append((i/100)**2)
+
+regSteiner2 = regresionSimple(np.array(Dbarra2),np.array(momentosbarra))
+
+print(regSteiner2[0],regSteiner2[1],regSteiner2[2],regSteiner2[3],regSteiner2[4],regSteiner2[5])
+
+recta2 = recta(regSteiner2[0],regSteiner2[1])
+
+"""plot(Dbarra2,momentosbarra,'o',color='royalblue',label='Datos experimentales')
+plot(recta2[0],recta2[1],'--',color='navy',label='Recta de regresión')
+xlabel('d\u00B2 (m\u00B2)')
+ylabel('I (kg·m\u00B2)')
+grid(True)
+legend(loc='lower right')
+
+show()"""
+
+masaBarra = 0.12143 #kg
+
+Ibarra = masaBarra*(longitudbarra**2)/12
+
+sIbarra = sqrt((longitudbarra**2/12)**2*0.00001**2 + ((masaBarra*longitudbarra)/6)**2*0.001**2)
+
+print(f'MI teórico de la barra {Ibarra} y su incertidumbre {sIbarra}')

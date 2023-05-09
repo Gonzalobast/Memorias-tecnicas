@@ -390,9 +390,14 @@ INPUT ./Images/RegGravedad.png
 INPUT Images/RegGravedad.png
 INPUT ./Images/RegGravedad.png
 INPUT ./Images/RegGravedad.png
+INPUT ./Images/RegEstatico.png
+INPUT ./Images/RegEstatico.png
+INPUT Images/RegEstatico.png
+INPUT ./Images/RegEstatico.png
 INPUT build/muelle.aux
 INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb

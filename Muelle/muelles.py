@@ -57,7 +57,7 @@ legend(loc='lower right')
 
 show()"""
 
-periodo10 = array([4.24,7.07,8.47,9.97,10.56,11.22,11.72,12.07,12.19,12.62]) 
+"""periodo10 = array([4.24,7.07,8.47,9.97,10.56,11.22,11.72,12.07,12.19,12.62]) 
 
 periodo = periodo10/10
 Tcuadrado = periodo**2
@@ -84,8 +84,8 @@ legend(loc='lower right')
 show()
 
 print(f'Valor de k: {1/regresion2[0]} y su incertidumbre {regresion2[1]/(regresion2[0]**2)}')
-
-"""plateadoligero = 49.26  #gramos
+"""
+plateadoligero = 49.26  #gramos
 DxPL = x - 400 #o 400 o 360x2 #Deformacion del plateado ligero
 DxPLA = x - 458 #deformacion del plateado ligero en el agua
 
@@ -145,21 +145,23 @@ def incDensLiq(delta,deltaxalcohol,IncDelta,Incdeltaalcohol,rho_S,IncRho_s):
     return IncRho_L
 
 rhoAlPP = densidadliquido(rhoPP,DxPP,DxPPalc)
+incrhoAlPP = incDensLiq(DxPP,DxPPalc,IncDelta,IncDelta,rhoPP,IncRhoPP)
 
 rhoAlPL = densidadliquido(rhoPL,DxPL,DxPLalc)
+incrhoAlPL = incDensLiq(DxPL,DxPLalc,IncDelta,IncDelta,rhoPL,IncRhoPL)
 
 rhoAlD = densidadliquido(rhoD,DxD,DxDalc)
+incrhoAlD = incDensLiq(DxD,DxDalc,IncDelta,IncDelta,rhoD,IncRhoD)
 
-
-print(rhoAlD)
-print(rhoAlPL)
-print(rhoAlPP)"""
+print(f'Datos de la densidad del alcohol para el plateado pesado {rhoAlPP} y su inc: {incrhoAlPP}')
+print(f'Datos de la densidad del alcohol para el plateado ligero {rhoAlPL} y su inc: {incrhoAlPL}')
+print(f'Datos de la densidad del alcohol para el dorado {rhoAlD} y su incertidumbre: {incrhoAlD}')
 
 #recta que pasa por el origen y la pendiente es g
 #a  la altura hay que restarle 1cm
 #incertidumbre del tiempo de caida es 0.00001 segundos
 
-altura = array([0.58,0.56,0.54,0.52,0.50,0.48,0.46,0.42,0.40,0.38])
+"""altura = array([0.58,0.56,0.54,0.52,0.50,0.48,0.46,0.42,0.40,0.38])
 tiempo = array([0.34094,0.33338,0.32952,0.31880,0.31177,0.30416,0.29593,0.29176,0.28261,0.27488])
 
 altura2 = altura*2
@@ -174,6 +176,6 @@ ylabel('2h (m)')
 grid(True)
 legend(loc='lower right')
 
-show()
+show()"""
 
 
